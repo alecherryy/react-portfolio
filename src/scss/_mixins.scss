@@ -1,3 +1,6 @@
+// @file
+// Mixins
+
 @mixin button-clear() {
   appearance: none;
   background-color: transparent;
@@ -10,5 +13,61 @@
 
   &:focus {
     outline: none;
+  }
+}
+
+@mixin arrow-link($color, $image-name, $image-location: '../../images/') {
+  color: $color;
+  position: relative;
+  white-space: nowrap;
+
+  &:hover {
+    &:after {
+      transform: translateX(15px);
+    }
+  }
+
+  &:after {
+    content: '';
+    background: {
+      image: url($image-location+$image-name+'.svg');
+      size: 103px 11px;
+      position: cover;
+      repeat: no-repeat;
+    }
+    height: 11px;
+    top: calc((100% - 11px) / 2);
+    position: absolute;
+    left: 105%;
+    transition: transform .4s ease-in-out;
+    width: 103px;
+  }
+}
+
+@mixin arrow-link-reverse($color, $image-name, $image-location: '../../images/') {
+  color: $color;
+  position: relative;
+  white-space: nowrap;
+
+  &:hover {
+    &:after {
+      transform: translateX(-15px);
+    }
+  }
+
+  &:after {
+    content: '';
+    background: {
+      image: url($image-location+$image-name+'.svg');
+      size: 103px 11px;
+      position: cover;
+      repeat: no-repeat;
+    }
+    height: 11px;
+    top: calc((100% - 11px) / 2);
+    position: absolute;
+    right: 105%;
+    transition: transform .4s ease-in-out;
+    width: 103px;
   }
 }

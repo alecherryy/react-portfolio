@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import data from '../../data.json';
 import LatestProject from '../LatestProject';
 import './styles.scss'; // remove this when creating a new project
-import SocialMedia from '../SocialMedia';
+// import SocialMedia from '../SocialMedia';
 import Menu from '../Menu';
 
 class Overlay extends Component {

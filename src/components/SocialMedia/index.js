@@ -9,7 +9,7 @@ class SocialMedia extends Component {
         {
         Object.keys(data.global.social).map((key, i) => (
           <li className="social-media__item">
-            <a className="social-media__link" href={ `data.global.social[key]` } target="_blank" rel="noopener noreferrer">{key}</a>
+            <a className={ `social-media__link social-media__link--${key}` } href={ `${data.global.social[key]}` } target="_blank" rel="noopener noreferrer">{key}</a>
           </li>
         )
       )}
