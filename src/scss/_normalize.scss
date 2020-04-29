@@ -142,13 +142,13 @@ var {
 
 /* stylelint-disable-next-line selector-no-vendor-prefix */
 ::-moz-selection {
-  background: #fff;
-  color: #020202;
+  background: $white;
+  color: $black;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fff;
-  color: #020202;
+  background: $white;
+  color: $black;
   text-shadow: none;
 }
