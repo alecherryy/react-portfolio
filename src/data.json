@@ -1,0 +1,14 @@
+{
+  "global": {
+    "latest_project" : {
+      "title": "no panic agency",
+      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret."
+    },
+    "social" : {
+      "Github": "https://github.com/alecherryy/",
+      "Codepen": "https://codepen.io/alecherryy/",
+      "LinkedIn": "https://www.linkedin.com/in/alessiapizzoccheri/",
+      "Twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
+    }
+  }
+}
