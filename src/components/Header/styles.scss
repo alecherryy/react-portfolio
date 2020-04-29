@@ -5,7 +5,7 @@ $icon-width: 44px;
 $icon-bar-width-sm: 9px;
 $icon-distance: 15px;
 
-.Hamburger {
+.hamburger {
   @include button-clear();
 
   height: $icon-height;
@@ -15,7 +15,7 @@ $icon-distance: 15px;
   width: $icon-width;
   z-index: 12;
 
-  &.isOpen {
+  &.is-open {
     
     span {
       background-color: $white;

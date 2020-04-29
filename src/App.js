@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import HamburgerMenu from './components/HamburgerMenu/index';
+import Header from './components/Header/index';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <HamburgerMenu />
+      <div>
+        <Header />
+      </div>
     );
   }
 }

@@ -21,13 +21,13 @@ class HamburgerMenu extends Component {
       <button 
         type="button"
         className={
-          this.state.isOpen ? 'hamburger is-open' : 'hamburger'
+          this.state.isOpen ? 'Hamburger isOpen' : 'Hamburger'
         }
         onClick={this.handleClick}
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        <span />
+        <span />
+        <span />
       </button>
     );
   }

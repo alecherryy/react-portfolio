@@ -1,0 +1,68 @@
+@import '../../scss/styles.scss';
+
+.latest-project {
+  color: $white;
+  display: none;
+  font-size: $font-size-md;
+
+  h3 {
+    color: $purple;
+    font-size: $font-size-xl;
+    font-weight: 900;
+    margin: 0;
+  
+    @include bp-xxlarge {
+      font-size: $font-size-xxl;
+    }
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+
+  @include bp-medium {
+    display: block;
+  }
+}
+
+.latest-project__eyebrow {
+  color: $white;
+  font: {
+    family: $header-font-family;
+    size: $font-size-xs;
+    weight: 700;
+  }
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.latest-project__link {
+  color: $white;
+  font-size: $font-size-xs;
+  margin: 1rem 0 0;
+  position: relative;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &:hover {
+    &:after {
+      transform: translateX(15px);
+    }
+  }
+
+  &:after {
+    content: '';
+    background: {
+      image: url('../../images/arrow-white--right.svg');
+      size: 103px 11px;
+      position: cover;
+      repeat: no-repeat;
+    }
+    height: 11px;
+    top: 5px;
+    position: absolute;
+    right: -113px;
+    transition: transform .4s ease-in-out;
+    width: 103px;
+  }
+}

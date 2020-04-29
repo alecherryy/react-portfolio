@@ -1,0 +1,37 @@
+@import '../../scss/styles.scss';
+
+.overlay {
+  align-items: center;
+  background-color: $pink;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+
+  @include bp-medium {
+    flex-flow: row;
+  }
+}
+
+.overlay__inner {
+  max-width: 1100px;
+  padding: 0 1rem;
+
+  @include bp-medium {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 55px;
+  }
+}
+
+.overlay__left {
+  
+  @include bp-medium {
+    border-right: solid 1px $white;
+    padding-right: 55px;
+  }
+}

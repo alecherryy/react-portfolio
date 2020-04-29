@@ -1,0 +1,153 @@
+@import '../../scss/styles.scss';
+
+.social-media {
+  list-style: none;
+
+  // .social-media-wrapper & {
+  //   position: absolute;
+  //   bottom: 15px;
+  //   left: calc((100% - 309px)/2);
+
+  //   @include bp-medium {
+  //     bottom: 45px;
+  //     left: 135px;
+  //   }
+  // }
+
+  .social-media__item {
+    display: inline-block;
+    opacity: 0;
+    padding: 0 45px 0 10px;
+    position: relative;
+    transform: translateY(5px);
+
+    &:last-child {
+      padding: 0 0 0 10px;
+      
+      &::before {
+        display: none;
+      }
+    }
+
+    &::before {
+      content: '';
+      background-color: $white;
+      display: block;
+      height: 1px;
+      left: 50px;
+      position: absolute;
+      top: 15px;
+      width: 0;
+    }
+
+    @include bp-medium {
+      padding: 0 85px 0 10px;
+
+      &::before {
+        left: 60px;
+        top: 19px;
+      }
+    }
+  }
+
+  .social-media__link {
+    display: block;
+    color: transparent;
+    font: 0/0 a;
+    height: 30px;
+    text-shadow: none;
+    width: 30px;
+    position: relative;
+
+    &::before,
+    &::after {
+    content: '';
+    color: transparent;
+    font: 0/0 a;
+    height: 30px;
+    text-shadow: none;
+    width: 30px;
+    background: {
+      position: center;
+      size: 30px 30px;
+      repeat: no-repeat;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+    @include bp-medium {
+      background-size: 40px 40px;
+      height: 40px;
+      width: 40px;
+
+      &::before,
+      &::after {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    &::before {
+      opacity: 1;
+      transition: opacity .2s ease-in;
+    }
+
+    &::after {
+      opacity: 0;
+      transition: opacity .2s ease-in;
+    }
+
+    &:hover, 
+    &:focus {
+      &::before {
+        opacity: 0;
+      }
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.social-media__link--github {
+  &::before {
+    background-image: linear-gradient(transparent, transparent), url(../../images/github.svg);
+  }
+  
+  &::after {
+    background-image: linear-gradient(transparent, transparent), url(../../images/github--hover.svg);
+  }
+}
+
+.social-media__link--codepen {
+  &::before {
+    background-image: linear-gradient(transparent, transparent), url(../../images/codepen.svg);
+  }
+  
+  &::after {
+    background-image: linear-gradient(transparent, transparent), url(../../images/codepen--hover.svg);
+  }
+}
+
+.social-media__link--linkedin {
+  &::before {
+    background-image: linear-gradient(transparent, transparent), url(../../images/linkedin.svg);
+  }
+  
+  &::after {
+    background-image: linear-gradient(transparent, transparent), url(../../images/linkedin--hover.svg);
+  }
+}
+
+.social-media__link--twitter {
+  &::before {
+    background-image: linear-gradient(transparent, transparent), url(../../images/twitter.svg);
+  }
+  
+  &::after {
+    background-image: linear-gradient(transparent, transparent), url(../../images/twitter--hover.svg);
+  }
+}
