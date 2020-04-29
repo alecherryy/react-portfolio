@@ -1,0 +1,13 @@
+@mixin button-clear() {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+
+  &:focus {
+    outline: none;
+  }
+}
