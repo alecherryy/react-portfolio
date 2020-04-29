@@ -1,8 +1,13 @@
 @import '../../scss/styles.scss';
 
 .social-media {
+  display: flex;
   list-style: none;
+  padding: 0;
 
+  .footer & {
+    margin: 0;
+  }
   // .social-media-wrapper & {
   //   position: absolute;
   //   bottom: 15px;
@@ -15,8 +20,7 @@
   // }
 
   .social-media__item {
-    display: inline-block;
-    opacity: 0;
+    // opacity: 0;
     padding: 0 45px 0 10px;
     position: relative;
     transform: translateY(5px);
@@ -24,12 +28,12 @@
     &:last-child {
       padding: 0 0 0 10px;
       
-      &::before {
+      &:before {
         display: none;
       }
     }
 
-    &::before {
+    &:before {
       content: '';
       background-color: $white;
       display: block;
@@ -43,7 +47,7 @@
     @include bp-medium {
       padding: 0 85px 0 10px;
 
-      &::before {
+      &:before {
         left: 60px;
         top: 19px;
       }
@@ -114,40 +118,56 @@
 
 .social-media__link--github {
   &::before {
-    background-image: linear-gradient(transparent, transparent), url(../../images/github.svg);
+    background-image: url('../../images/github.svg');
+
+    .footer & {
+      background-image: url('../../images/github-black.svg');
+    }
   }
   
   &::after {
-    background-image: linear-gradient(transparent, transparent), url(../../images/github--hover.svg);
+    background-image: url('../../images/github-hover.svg');
   }
 }
 
 .social-media__link--codepen {
   &::before {
-    background-image: linear-gradient(transparent, transparent), url(../../images/codepen.svg);
+    background-image: url('../../images//codepen.svg');
+
+    .footer & {
+      background-image: url('../../images/codepen-black.svg');
+    }
   }
   
   &::after {
-    background-image: linear-gradient(transparent, transparent), url(../../images/codepen--hover.svg);
+    background-image: url('../../images/codepen-hover.svg');
   }
 }
 
 .social-media__link--linkedin {
   &::before {
-    background-image: linear-gradient(transparent, transparent), url(../../images/linkedin.svg);
+    background-image: url('../../images/linkedin.svg');
+
+    .footer & {
+      background-image: url('../../images/linkedin-black.svg');
+    }
   }
   
   &::after {
-    background-image: linear-gradient(transparent, transparent), url(../../images/linkedin--hover.svg);
+    background-image: url('../../images/linkedin-hover.svg');
   }
 }
 
 .social-media__link--twitter {
   &::before {
-    background-image: linear-gradient(transparent, transparent), url(../../images/twitter.svg);
+    background-image: url('../../images/twitter.svg');
+
+    .footer & {
+      background-image: url('../../images/twitter-black.svg');
+    }
   }
   
   &::after {
-    background-image: linear-gradient(transparent, transparent), url(../../images/twitter--hover.svg);
+    background-image: url('../../images/twitter-hover.svg');
   }
 }

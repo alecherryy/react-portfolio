@@ -1,3 +1,6 @@
+// @file
+// Latest project
+
 @import '../../scss/styles.scss';
 
 .latest-project {
@@ -37,32 +40,8 @@
 }
 
 .latest-project__link {
-  color: $white;
+  @include arrow-link($white, arrow-white-right);
+
   font-size: $font-size-xs;
-  margin: 1rem 0 0;
-  position: relative;
   text-transform: uppercase;
-  white-space: nowrap;
-
-  &:hover {
-    &:after {
-      transform: translateX(15px);
-    }
-  }
-
-  &:after {
-    content: '';
-    background: {
-      image: url('../../images/arrow-white--right.svg');
-      size: 103px 11px;
-      position: cover;
-      repeat: no-repeat;
-    }
-    height: 11px;
-    top: 5px;
-    position: absolute;
-    right: -113px;
-    transition: transform .4s ease-in-out;
-    width: 103px;
-  }
 }

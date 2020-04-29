@@ -1,0 +1,14 @@
+// @file
+// Constrain
+
+@import '../../scss/styles.scss';
+
+.constrain {
+  margin: 0 auto;
+  max-width: 1420px;
+  padding: 0 1rem;
+
+  @include bp-medium {
+    padding: 0 2rem;
+  }
+}
