@@ -1,0 +1,4 @@
+# ignore all files listed below
+.node_modules/
+java-animations.iml
+*.DS_Store
