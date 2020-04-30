@@ -5,11 +5,31 @@
       "title": "no panic agency",
       "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret."
     },
-    "social" : {
+    "social": {
       "github": "https://github.com/alecherryy/",
       "codepen": "https://codepen.io/alecherryy/",
       "linkedin": "https://www.linkedin.com/in/alessiapizzoccheri/",
       "twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
-    }
+    },
+    "teasers": [
+      {
+        "no panic agency": { 
+          "color": "purple",
+          "image": "images/projects/nopanic/nopanic-macbook.png",
+          "type": "wordpress",
+          "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+          "path": "#"
+        }
+      },
+      {
+        "no panic agency": { 
+          "color": "purple",
+          "image": "images/projects/nopanic/featured.jpg",
+          "type": "wordpress",
+          "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+          "path": "#"
+        }
+      }
+    ]
   }
 }
