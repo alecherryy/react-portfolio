@@ -26,9 +26,8 @@
 }
 
 .footer__email {
-  @include arrow-link($white, 'arrow-black-right');
+  @include arrow-link($black, 'arrow-black-right');
 
-  color: $black;
   font: {
     family: $base-font-family;
     size: $font-size-md;

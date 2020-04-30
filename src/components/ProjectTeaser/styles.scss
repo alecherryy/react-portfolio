@@ -1,0 +1,132 @@
+// @file
+// Project teaser
+
+@import '../../scss/styles.scss';
+
+.proj-teaser {
+  padding: 5rem 0;
+  transition: all .6s ease-in-out;
+
+  @include bp-medium {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+.proj-teaser__inner {
+  align-items: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  position: relative;
+
+  @include bp-large {
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 0 0 2.75rem;
+    position: relative;
+  }
+  
+  @include bp-xlarge {
+    max-width: 1280px;
+  }
+}
+
+.proj-teaser__image {
+  position: relative;
+  z-index: 1;
+  
+  &::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 270px 135px;
+    bottom: -20px;
+    content: '';
+    height: 135px;
+    left: auto;
+    position: absolute;
+    right: -75px;
+    transform: rotate(15deg);
+    transition: transform 1s ease-in-out;
+    width: 270px;
+    z-index: -1;
+
+    .is-rotating & {
+      transform: rotate(5deg);
+    }
+    
+    .color-magenta & {
+      background-image: url('../../images/semi-circle-magenta.svg');
+    }
+  }
+
+  @include bp-medium {
+    flex-basis: calc(100% - 380px);
+  }
+}
+
+.proj-teaser__bottom {
+  z-index: 1;
+
+  h3 {
+    color: $white;
+    margin: 2rem 0 0;
+    
+    @include bp-large {
+      font-size: $font-size-xl;
+    }
+  }
+
+  @include bp-large {
+    flex-basis: 380px;
+    margin-left: -50px;
+    padding: 0 0 2rem;
+  }
+}
+
+.proj-teaser__type {
+  color: rgba(255,63,87,.3);
+  display: block;
+  font: {
+    family: $header-font-family;
+    weight: 900;
+    size: $font-size-xxxl;
+  }
+  letter-spacing: 3px;
+  margin: -1rem 0 0;
+  transition: all 1s ease-in-out;
+  width: 100%;
+  z-index: 0;
+
+  .color-magenta &,
+  .color-magenta-dark &,
+  .color-purple & {
+    color: rgba(255,214,194,.3);
+  }
+
+  @include bp-small {
+    font-size: 98px;
+    text-align: center;
+  }
+
+  @include bp-medium {
+    font-size: 120px;
+    position: absolute;
+    top: 82%;
+  }
+  
+  @include bp-xlarge {
+    font-size: 140px;
+  }
+}
+
+.proj-teaser__link {
+  @include arrow-link($white, 'arrow-white-right');
+
+  font-family: $header-font-family;
+  text-transform: uppercase;
+}
