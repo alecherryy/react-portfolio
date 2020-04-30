@@ -13,6 +13,7 @@
     }
   },
   "homepage": {
+    "intro" : "My name is Alessia and I am a developer based out of New York. I care about pretty designs, intuitive interfaces and accessibility.",
     "squares": [
       "/images/homepage/square-1.svg",
       "/images/homepage/square-2.svg",
@@ -26,22 +27,80 @@
     ],
     "teasers": [
       {
-        "no panic agency": { 
-          "color": "purple",
-          "image": "/images/nopanic/nopanic-macbook.png",
-          "type": "wordpress",
-          "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-          "path": "#"
-        }
+        "title": "no panic agency",
+        "color": "purple",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
       },
       {
-        "no panic agency": { 
-          "color": "purple",
-          "image": "/images/nopanic/featured.jpg",
-          "type": "wordpress",
-          "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-          "path": "#"
-        }
+        "title": "Sonosite",
+        "color": "magenta-dark",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "drupal 8",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Vilcek Foundation",
+        "color": "magenta",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Catalyst",
+        "color": "orange",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      }
+    ]
+  },
+  "projects": {
+    "teasers": [
+      {
+        "title": "no panic agency",
+        "color": "purple",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Sonosite",
+        "color": "magenta-dark",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "drupal 8",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Vilcek Foundation",
+        "color": "magenta",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Catalyst",
+        "color": "orange",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
+      },
+      {
+        "title": "Research Technical Assistance Center",
+        "color": "pink",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
+        "path": "#"
       }
     ]
   }

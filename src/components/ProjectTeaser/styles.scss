@@ -14,6 +14,22 @@
     justify-content: center;
     padding: 0;
   }
+
+  &:nth-child(even) {
+    .proj-teaser__inner {
+      @include bp-medium {
+        flex-direction: row-reverse;
+      }
+    }
+
+    .proj-teaser__bottom {
+    
+      @include bp-large {
+        margin-left: 0;
+        margin-right: -50px;
+      }
+    }
+  }
 }
 
 .proj-teaser__inner {

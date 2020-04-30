@@ -9,11 +9,11 @@ class ProjectTeaser extends Component {
         <Constrain>
           <div className="proj-teaser__inner">
             <div className="proj-teaser__image">
-            <img alt={ `${this.props.title}` } src={ this.props.image } />
+            <img alt={ `${this.props.title}` } src={ `${this.props.image}` } />
             </div>
             <div className="proj-teaser__bottom">
               <h3>{ this.props.title }</h3>
-              <p>{ this.props.intro }</p>
+              <p>{ this.props.description }</p>
               <a className="proj-teaser__link" href={ `${this.props.path}` }>Read more</a>
             </div>
             <span className="proj-teaser__type">{this.props.type}</span>
