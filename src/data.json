@@ -10,12 +10,25 @@
       "codepen": "https://codepen.io/alecherryy/",
       "linkedin": "https://www.linkedin.com/in/alessiapizzoccheri/",
       "twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
-    },
+    }
+  },
+  "homepage": {
+    "squares": [
+      "/images/homepage/square-1.svg",
+      "/images/homepage/square-2.svg",
+      "/images/homepage/square-3.svg",
+      "/images/homepage/square-4.svg",
+      "/images/homepage/square-5.svg",
+      "/images/homepage/square-6.svg",
+      "/images/homepage/square-7.svg",
+      "/images/homepage/square-8.svg",
+      "/images/homepage/square-9.svg"
+    ],
     "teasers": [
       {
         "no panic agency": { 
           "color": "purple",
-          "image": "images/projects/nopanic/nopanic-macbook.png",
+          "image": "/images/nopanic/nopanic-macbook.png",
           "type": "wordpress",
           "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
           "path": "#"
@@ -24,7 +37,7 @@
       {
         "no panic agency": { 
           "color": "purple",
-          "image": "images/projects/nopanic/featured.jpg",
+          "image": "/images/nopanic/featured.jpg",
           "type": "wordpress",
           "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
           "path": "#"

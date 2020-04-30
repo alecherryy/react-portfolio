@@ -26,6 +26,7 @@
   ],
   "devDependencies": {
     "modularscale-sass": "^3.0.8",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "url-loader": "^4.1.0"
   }
 }
