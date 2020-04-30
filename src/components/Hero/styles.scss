@@ -1,0 +1,184 @@
+// @file
+// Project teaser
+
+@import '../../scss/styles.scss';
+
+.hero {
+  // background-color: $purple-dark;
+  color: $white;
+  padding: 10rem 0;
+
+  @include bp-medium {
+    padding: 0;
+  }
+
+  @include bp-medium {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+    > * {
+      flex: 1 0 0;
+    }
+  }
+}
+
+.hero__left {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__title {
+  color: $white;
+  line-height: 1;
+  margin: 0;
+
+  @include bp-large {
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    span {
+      display: inline-block;
+      position: relative;
+      white-space: nowrap;
+  
+      &:after {
+        content: '';
+        background-color: $magenta-2;
+        bottom: 17px;
+        height: 13px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  @include bp-xlarge {
+    font-size: 88px;
+  }
+}
+
+.hero__content {  
+  font-size: 22px;
+  margin: 0 0 2rem;
+  
+
+  @include bp-large {
+    font-size: 30px;
+    margin: 186px 0 0;
+  }
+}
+
+.hero__right {
+  // duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name
+  animation: 2s cubic-bezier(.24,.56,.25,1) 1s 1 forwards fade-in;
+  opacity: 0;
+}
+
+.hero__squares {
+  // duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name
+  animation: 2s 1s 1 cubic-bezier(.24,.56,.25,1) forwards slide-in;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  max-width: 400px;
+  transform-style: preserve-3d;
+  transform: translateY(50%);
+
+  @include bp-large {
+    max-width: 450px;
+  }
+
+  img {
+    &:first-child,
+    &:last-child {
+      transform: translateZ(30px);  
+      animation: 10s ease-in-out infinite forwards float-off-2;
+    }
+
+    &:nth-child(7),
+    &:nth-child(3) {
+      animation: 10s ease-in-out infinite forwards float;
+      transform: translateZ(30px);
+    }
+
+    &:nth-child(5) {
+      animation: 10s ease-in-out infinite forwards float-off;
+      transform: translateZ(30px);
+    }
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  } 
+}
+
+@keyframes slide-in {
+  25% {
+    transform: translateY(0);
+  }  
+  100% {
+    transform: perspective(300px) rotateX(8.07deg) rotateY(0.94deg);
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translateZ(30px);
+	}
+  25% {
+    transform: translateZ(10px);
+  }
+	50% {
+		transform: translateZ(20px);
+	}
+  75% {
+    transform: translateZ(10px);
+  }
+	100% {
+		transform: translateZ(30px);
+	}
+}
+
+@keyframes float-off {
+	0% {
+		transform: translateZ(30px);
+	}
+  25% {
+    transform: translateZ(45px);
+  }
+	50% {
+		transform: translateZ(35px);
+	}
+  75% {
+    transform: translateZ(40px);
+  }
+	100% {
+		transform: translateZ(30px);
+	}
+}
+
+@keyframes float-off-2 {
+	0% {
+		transform: translateZ(30px);
+	}
+  25% {
+    transform: translateZ(35px);
+  }
+	50% {
+		transform: translateZ(25px);
+	}
+  75% {
+    transform: translateZ(35px);
+  }
+	100% {
+		transform: translateZ(30px);
+	}
+}
