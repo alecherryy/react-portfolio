@@ -90,7 +90,7 @@
   transform-style: preserve-3d;
   transform: translateY(50%);
 
-  @include bp-large {
+  @include bp-xlarge {
     max-width: 450px;
   }
 

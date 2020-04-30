@@ -9,9 +9,12 @@ class Hero extends Component {
       <Constrain>
         <div className="hero">
           <div className="hero__left">
-            <h1 className="hero__title">I am a<br />
-              <span>{ this.props.profession }</span>
-            </h1>
+            { this.props.isHomepage
+              ? <h1 className="hero__title">I am a<br />
+                  <span>{ this.props.profession }</span>
+                </h1>
+            : <h1 className="hero__title">{ this.props.title }</h1>
+          }
             <p className="hero__content">{ this.props.intro }</p>
           </div>
           <div className="hero__right">
