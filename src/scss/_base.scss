@@ -10,15 +10,40 @@ html {
 }
 
 body {
-  background-color: $purple;
   color: $black;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+  transition: background-color 1s ease-in-out;
   word-wrap: break-word;
 
   &.no-scroll {
     overflow-y: hidden;
+  }
+
+
+  &.color-purple-dark {
+    background-color: $purple-dark;
+  }
+
+  &.color-magenta {
+    background-color: $magenta;
+  }
+  
+  &.color-magenta-2 {
+    background-color: $magenta-2;
+  }
+  
+  &.color-magenta-dark {
+    background-color: $magenta-dark;
+  }
+  
+  &.color-purple {
+    background-color: $purple;
+  }
+  
+  &.color-orange-light {
+    background-color: $orange-light;
   }
 }
 
@@ -165,36 +190,7 @@ a {
   }
 }
 
-main {
-  background-color: $purple-dark;
-  height: 100vh;
-  position: relative;
-  transition: background-color 1s ease-in-out;
-
-  &.color-purple-dark {
-    background-color: $purple-dark;
-  }
-
-  &.color-magenta {
-    background-color: $magenta;
-  }
-  
-  &.color-magenta-2 {
-    background-color: $magenta-2;
-  }
-  
-  &.color-magenta-dark {
-    background-color: $magenta-dark;
-  }
-  
-  &.color-purple {
-    background-color: $purple;
-  }
-  
-  &.color-orange-light {
-    background-color: $orange-light;
-  }
-}
+// main {}
 
 img {
   max-width: 100%;

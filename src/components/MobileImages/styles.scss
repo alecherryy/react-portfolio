@@ -1,0 +1,44 @@
+// @file
+// Project mobile
+
+@import '../../scss/styles.scss';
+
+.mobile {
+
+  &:nth-child(even) {
+    text-align: right;
+  }
+}
+
+.mobile__item {
+  display: inline-block;
+  position: relative;
+}
+
+.mobile__img {
+  max-width: 280px;
+
+  @include bp-small {
+    max-width: 350px;
+  }
+}
+
+.mobile__word {
+  color: rgba(255,63,87,.3);
+  display: inline-block;
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: 120px;
+  // left: 0;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: 100% 0;
+  white-space: nowrap;
+  z-index: -1;
+
+  .color--bg-magenta &,
+  .color--bg-magenta-dark &,
+  .color--bg-purple & {
+    color: rgba(255,214,194,.3);
+  }
+}

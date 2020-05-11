@@ -9,14 +9,11 @@
   padding: 10rem 0;
 
   @include bp-medium {
-    padding: 0;
-  }
-
-  @include bp-medium {
     align-items: center;
     display: flex;
     height: 100vh;
     justify-content: space-between;
+    padding: 0;
 
     > * {
       flex: 1 0 0;

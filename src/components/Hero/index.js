@@ -11,11 +11,11 @@ class Hero extends Component {
           <div className="hero__left">
             { this.props.isHomepage
               ? <h1 className="hero__title">I am a<br />
-                  <span>{ this.props.profession }</span>
+                  <span>{this.props.profession}</span>
                 </h1>
-            : <h1 className="hero__title">{ this.props.title }</h1>
-          }
-            <p className="hero__content">{ this.props.intro }</p>
+              : <h1 className="hero__title">{ this.props.title }</h1>
+            }
+            <p className="hero__content">{this.props.intro}</p>
           </div>
           <div className="hero__right">
             <div className="hero__squares">
