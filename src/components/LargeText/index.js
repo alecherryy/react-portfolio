@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import './styles.scss'; // remove this when creating a new project
+import ConstrainSmall from '../Constrain/ConstrainSmall';
 
-class MobileImages extends Component {
+class LargeText extends Component {
   render() {
     return (
-      <figure className="mobile">
-        <Image className="mobile__img" alt={ `${this.props.title}` } src={ `${this.props.image}` } />
-        <span className="mobile__word">{this.props.name}</span>
-      </figure>
+      <ConstrainSmall>
+        <h3>{this.props.content}</h3>
+      </ConstrainSmall>
     );
   }
 }
 
-export default MobileImages;
+export default LargeText;

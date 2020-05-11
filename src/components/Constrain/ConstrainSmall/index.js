@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './styles.scss'; // remove this when creating a new project
 
 class ConstrainSmall extends Component {
   render() {

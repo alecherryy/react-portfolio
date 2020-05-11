@@ -1,0 +1,55 @@
+// @file
+// Project mobile
+
+@import '../../scss/styles.scss';
+
+.next-project {
+  align-items: center;
+  background-color: $purple;
+  display: flex;
+  height: 50vh;
+}
+
+.next-project__inner {
+  margin: auto;
+  position: relative;
+  text-align: center;
+
+  a {
+    @include arrow-link($white, arrow-white-right);
+
+    color: $white;
+    display: inline-block;
+    font-size: $font-size-xl;
+    font-weight: 700;
+
+    @include bp-small {
+      font-size: $font-size-xxl;
+    }
+    
+    @include bp-medium {
+      font-size: $font-size-xxxl;
+    }
+  }
+
+  h4 {
+    bottom: 0;
+    color: $pink;
+    margin: 0;
+    opacity: 0.3;
+  
+    @include bp-small {
+      font-size: $font-size-xxxl;
+    }
+  
+    @include bp-xlarge {
+      font-size: 120px;
+    }
+  
+    .color--bg-magenta &,
+    .color--bg-magenta-dark &,
+    .color--bg-purple & {
+      color: $orange;
+    }
+  }
+}
