@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import './styles.scss'; // remove this when creating a new project
+import './styles.scss';
 import Squares from '../Squares';
-import Constrain from '../Constrain';
 
 class Hero extends Component {
   render() {
+    const classes = [
+      'hero',
+      this.props.modifierClasses ? this.props.modifierClasses : ''
+    ]
     return (
-      <div className="hero">
+      <div className={classes.join(' ')}>
         <div className="hero__left">
           {this.props.isHomepage
             ? <h1 className="hero__title">I am a<br />

@@ -3,7 +3,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 100% * ($base-font-size / 16px);
+  font-size: 100% * ($base-font-size / 20px);
   line-height: $base-line-height;
   min-height: 100%;
   text-size-adjust: 100%;
@@ -51,6 +51,7 @@ body {
   color: $magenta;
   background: $white;
 }
+
 ::-moz-selection {
   color: $magenta;
   background: $white;
@@ -61,7 +62,7 @@ body {
   color: $black;
   font-weight: 700;
   hyphens: none;
-  line-height: 1.3;
+  line-height: 1.1;
   margin: 0 0 rem($vertical-spacing);
   text-rendering: optimizeLegibility;
 
@@ -164,15 +165,10 @@ hr {
   border: solid 1px $white;
 }
 
-section {
-  padding: 90px 75px;
+// section {}
 
-  @include bp-medium {
-    padding: 90px 135px;
-  }
-}
 a {
-  color: $black;
+  color: $white;
   font: {
     family: $header-font-family;
     weight: 300;

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import data from '../../data.json';
+import React, { Component } from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
 import ProjectTeaser from '../ProjectTeaser';

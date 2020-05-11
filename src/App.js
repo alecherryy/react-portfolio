@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Constrain from './components/Constrain';
-import ProjectDetail from './components/ProjectDetail';
+import HeroProject from './components/Hero/HeroProject';
 
 class App extends Component {
   render() {
     return (
-      <Constrain>
-        <ProjectDetail />
-      </Constrain>
+      <HeroProject
+        title="nopanic agency"
+      />
     );
   }
 }

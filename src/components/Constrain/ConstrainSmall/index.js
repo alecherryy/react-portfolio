@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Constrain from '../../Constrain';
 
-class ConstrainSmall extends Component {
+class ConstrainSmall extends Constrain {
   render() {
     return (
-      <div className="constrain constrain-small">
-        {this.props.children}
-      </div>
+      <Constrain 
+        modifierClasses="constrain-small"
+        children={this.props.children}
+      />
     );
   }
 }

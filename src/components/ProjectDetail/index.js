@@ -4,7 +4,7 @@ import nopanic from '../../nopanic.json';
 import Content from '../Content';
 import PlainText from '../PlainText';
 import LargeText from '../LargeText';
-import HeroProject from '../HeroProject';
+import HeroProject from '../Hero/HeroProject';
 import MobileImage from '../MobileImage';
 import NextProject from '../NextProject';
 

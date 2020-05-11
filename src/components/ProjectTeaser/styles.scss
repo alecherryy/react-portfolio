@@ -26,7 +26,7 @@
     
       @include bp-large {
         margin-left: 0;
-        margin-right: -50px;
+        margin-right: rem(-50px);
       }
     }
   }
@@ -47,7 +47,7 @@
   }
   
   @include bp-xlarge {
-    max-width: 1280px;
+    max-width: rem(1200px);
   }
 }
 
@@ -56,18 +56,20 @@
   z-index: 1;
   
   &::before {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 270px 135px;
-    bottom: -20px;
+    background: {
+      position: center;
+      repeat: no-repeat;
+      size: rem(270px) rem(135px);
+    }
+    bottom: rem(-20px);
     content: '';
-    height: 135px;
+    height: rem(1)35px;
     left: auto;
     position: absolute;
-    right: -75px;
+    right: rem(-75px);
     transform: rotate(15deg);
     transition: transform 1s ease-in-out;
-    width: 270px;
+    width: rem(270px);
     z-index: -1;
 
     .is-rotating & {
@@ -80,7 +82,7 @@
   }
 
   @include bp-medium {
-    flex-basis: calc(100% - 380px);
+    flex-basis: calc(100% - #{rem(380px)});
   }
 }
 
@@ -97,22 +99,21 @@
   }
 
   @include bp-large {
-    flex-basis: 380px;
+    flex-basis: rem(380px);
     margin-left: -50px;
     padding: 0 0 2rem;
   }
 }
 
 .proj-teaser__type {
-  color: rgba(255,63,87,.3);
+  color: $pink;
   display: block;
   font: {
     family: $header-font-family;
-    weight: 900;
     size: $font-size-xxxl;
   }
-  letter-spacing: 3px;
   margin: -1rem 0 0;
+  opacity: 0.3;
   transition: all 1s ease-in-out;
   width: 100%;
   z-index: 0;
@@ -120,22 +121,22 @@
   .color-magenta &,
   .color-magenta-dark &,
   .color-purple & {
-    color: rgba(255,214,194,.3);
+    color: $orange;
   }
 
   @include bp-small {
-    font-size: 98px;
+    font-size: rem(98px);
     text-align: center;
   }
 
   @include bp-medium {
-    font-size: 120px;
+    font-size: rem(120px);
     position: absolute;
     top: 82%;
   }
   
   @include bp-xlarge {
-    font-size: 140px;
+    font-size: rem(140px);
   }
 }
 

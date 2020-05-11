@@ -1,7 +1,7 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Project mobile
-
-@import '../../scss/styles.scss';
 
 .mobile {
   align-items: center;
@@ -18,16 +18,16 @@
     }
   }
 
+  .img {
+    max-width: 280px;
+  
+    @include bp-small {
+      max-width: 350px;
+    }
+  }
+
   @include bp-medium {
     padding: 0;
-  }
-}
-
-.mobile__img {
-  max-width: 280px;
-
-  @include bp-small {
-    max-width: 350px;
   }
 }
 

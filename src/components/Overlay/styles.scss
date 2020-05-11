@@ -1,7 +1,7 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Project teaser
-
-@import '../../scss/styles.scss';
 
 .overlay {
   align-items: center;
@@ -21,13 +21,13 @@
 }
 
 .overlay__inner {
-  max-width: 1100px;
+  max-width: rem(1200px);
   padding: 0 1rem;
 
   @include bp-medium {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 55px;
+    grid-gap: rem(55px);
   }
 }
 
@@ -35,6 +35,6 @@
   
   @include bp-medium {
     border-right: solid 1px $white;
-    padding-right: 55px;
+    padding-right: rem(55px);
   }
 }

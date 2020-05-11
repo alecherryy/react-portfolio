@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Constrain extends Component {
+class Content extends Component {
   render() {
     return (
       <div className="content">
@@ -10,4 +10,4 @@ class Constrain extends Component {
   }
 }
 
-export default Constrain;
+export default Content;

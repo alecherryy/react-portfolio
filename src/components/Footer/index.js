@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
 import data from '../../data.json';
-import './styles.scss'; // remove this when creating a new project
+import React, { Component } from 'react';
 import SocialMedia from '../SocialMedia';
+import './styles.scss';
 
 class Footer extends Component {
   render() {
@@ -12,7 +12,7 @@ class Footer extends Component {
             <span className="footer__eyebrow">
               Got an idea?
             </span>
-            <a className="footer__email" href={data.global.email}>Shoot me an email</a>
+            <a className="footer__email" href={`mailto:${data.global.email}`}>Shoot me an email</a>
           </div>
           <div className="footer__right">
             <SocialMedia />

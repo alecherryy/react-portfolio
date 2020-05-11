@@ -1,7 +1,7 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Project teaser
-
-@import '../../scss/styles.scss';
 
 .hero {
   // background-color: $purple-dark;
@@ -41,11 +41,11 @@
       position: relative;
       white-space: nowrap;
   
-      &:after {
+      &::after {
         content: '';
         background-color: $magenta-2;
-        bottom: 17px;
-        height: 13px;
+        bottom: rem(17px);
+        height: rem(13px);
         left: 0;
         position: absolute;
         width: 100%;
@@ -55,18 +55,18 @@
   }
 
   @include bp-xlarge {
-    font-size: 88px;
+    font-size: rem(88px);
   }
 }
 
 .hero__content {  
-  font-size: 22px;
+  font-size: $font-size-md;
   margin: 0 0 2rem;
   
 
   @include bp-large {
-    font-size: 30px;
-    margin: 186px 0 0;
+    font-size: $font-size-lg;
+    margin: rem(186px) 0 0;
   }
 }
 
@@ -83,12 +83,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin: auto;
-  max-width: 400px;
+  max-width: rem(400px);
   transform-style: preserve-3d;
   transform: translateY(50%);
 
   @include bp-xlarge {
-    max-width: 450px;
+    max-width: rem(450px);
   }
 
   img {
