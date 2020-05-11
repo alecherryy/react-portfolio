@@ -1,0 +1,19 @@
+{
+  "featured_image": "/images/nopanic/nopanic-macbook.png",
+  "project_type": "wordpress",
+  "title": "nopanic agency",
+  "description": "Lorem ipsum dolor sit amet, delectus cotidieque ut usu, eu mazim blandit persecuti eum. An exerci copiosae gubergren duo, indoctum convenire honestatis ad pro. Vis commodo similique tincidunt in. Eos democritum dissentiunt id, pro utroque insolens adipiscing ei. Eu sit assum oratio. Ne postulant suavitate per. Vis ei summo accumsan albucius, ius semper impetus facilisis te.",
+  "link": "https://www.nopanic-agency.com/",
+  "mobile_images": [
+    {
+      "responsive": "/images/nopanic/nopanic-mobile-1.png" 
+    },
+    {
+      "modern": "/images/nopanic/nopanic-mobile-1.png"
+    }
+  ],
+  "desktop_images": [
+    "/images/nopanic/nopanic-macbook.png",
+    "/images/nopanic/nopanic-macbook.png"
+  ]
+}

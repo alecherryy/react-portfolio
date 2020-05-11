@@ -1,0 +1,13 @@
+// @file
+// Project teaser
+
+@import '../../scss/styles.scss';
+
+.plain-text {
+  padding: 4rem 0;
+
+  @include bp-medium {
+    max-width: 50%;
+    padding: 8rem 0;
+  }
+}
