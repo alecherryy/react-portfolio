@@ -21,60 +21,59 @@
 
   .social-media__item {
     // opacity: 0;
-    padding: 0 45px 0 10px;
+    padding: 0 4rem 0 0.5rem;
     position: relative;
     transform: translateY(5px);
 
-    &:last-child {
-      padding: 0 0 0 10px;
-      
-      &:before {
-        display: none;
-      }
-    }
-
-    &:before {
+    &::before {
       content: '';
       background-color: $white;
       display: block;
       height: 1px;
-      left: 50px;
+      left: rem(50px);
       position: absolute;
-      top: 15px;
+      top: rem(15px);
       width: 0;
     }
 
-    @include bp-medium {
-      padding: 0 85px 0 10px;
-
-      &:before {
-        left: 60px;
-        top: 19px;
+    &:last-child {
+      padding: 0 0 0.5rem;
+      
+      &::before {
+        display: none;
       }
     }
+
+    // @include bp-medium {
+    //   padding: 0 85px 0 10px;
+
+    //   &::before {
+    //     left: 60px;
+    //     top: 19px;
+    //   }
+    // }
   }
 
   .social-media__link {
     display: block;
     color: transparent;
     font: 0/0 a;
-    height: 30px;
+    height: rem(30px);
     text-shadow: none;
-    width: 30px;
+    width: rem(30px);
     position: relative;
 
     &::before,
     &::after {
     content: '';
     color: transparent;
-    font: 0/0 a;
-    height: 30px;
+    height: rem(30px);
     text-shadow: none;
-    width: 30px;
+    width: rem(30px);
     background: {
       position: center;
-      size: 30px 30px;
       repeat: no-repeat;
+      size: 100%;
     }
     position: absolute;
     top: 0;
@@ -82,14 +81,14 @@
     }
 
     @include bp-medium {
-      background-size: 40px 40px;
-      height: 40px;
-      width: 40px;
+      background-size: rem(40px) rem(40px);
+      height: rem(40px);
+      width: rem(40px);
 
       &::before,
       &::after {
-        height: 40px;
-        width: 40px;
+        height: rem(40px);
+        width: rem(40px);
       }
     }
 

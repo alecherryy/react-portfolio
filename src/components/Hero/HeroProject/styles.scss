@@ -1,11 +1,11 @@
 // @file
 // Project teaser
 
-@import '../../scss/styles.scss';
+@import '../../../scss/styles.scss';
 
 .project-hero {
   margin: auto;
-  max-width: 900px;
+  max-width: rem(900px);
   padding: 10rem 0;
 
   @include bp-medium {

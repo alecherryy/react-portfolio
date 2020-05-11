@@ -11,14 +11,14 @@ $base-font-family: 'Cormorant Garamond', serif;
 $header-font-family: 'Avenir', sans-serif;
 
 // Typographic Scale
-$font-size-xxxl: 72px;
-$font-size-xxl: 60px;
-$font-size-xl: 48px;
-$font-size-lg: 36px;
-$font-size-md: 24px;
-$font-size-sm: $base-font-size;;
-$font-size-xs: 16px;
-$font-size-xxs: 10px;
+$font-size-xxxl: rem(72px);
+$font-size-xxl: rem(60px);
+$font-size-xl: rem(48px);
+$font-size-lg: rem(36px);
+$font-size-md: rem(24px);
+$font-size-sm: rem($base-font-size);
+$font-size-xs: rem(16px);
+$font-size-xxs: rem(10px);
 
 // Heading Sizes
 $font-size-h1: $font-size-xxxl;

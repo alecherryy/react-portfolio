@@ -1,11 +1,11 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Constrain
 
-@import '../../scss/styles.scss';
-
 .constrain {
   margin: 0 auto;
-  max-width: 1420px;
+  max-width: rem(1420px);
   padding: 0 1rem;
 
   @include bp-medium {
@@ -13,7 +13,7 @@
   }
 
   &.constrain-small {
-    max-width: 800px;
+    max-width: rem(800px);
   }
 
   + .constrain-small {

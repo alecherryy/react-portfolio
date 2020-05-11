@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles.scss'; // remove this when creating a new project
+import './styles.scss';
 
 class HamburgerMenu extends Component {
   constructor(props) {
@@ -19,14 +19,14 @@ class HamburgerMenu extends Component {
   render() {
     const classes = [
       'hamburger',
-      this.state.isOpen ? ' is-open' : ''
+      this.state.isOpen ? 'is-open' : ''
     ]
     return (
-      <button type="button" className={classes.join(' ')} onClick={this.handleClick}>
+      <Button type="button" className={classes.join(' ')} onClick={this.handleClick}>
         <span />
         <span />
         <span />
-      </button>
+      </Button>
     );
   }
 }

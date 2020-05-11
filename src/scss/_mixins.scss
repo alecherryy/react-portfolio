@@ -2,7 +2,9 @@
 // Mixins
 
 @mixin button-clear() {
-  appearance: none;
+  &[type='button'] {
+    appearance: none;
+  }
   background-color: transparent;
   border: 0;
   border-radius: 0;
@@ -22,25 +24,25 @@
   white-space: nowrap;
 
   &:hover {
-    &:after {
+    &::after {
       transform: translateX(15px);
     }
   }
 
-  &:after {
+  &::after {
     content: '';
     background: {
       image: url($image-location+$image-name+'.svg');
-      size: 103px 11px;
       position: cover;
       repeat: no-repeat;
+      size: 100%;
     }
-    height: 11px;
-    top: calc((100% - 11px) / 2);
-    position: absolute;
+    height: rem(11px);
     left: 105%;
+    position: absolute;
+    top: calc((100% - #{rem(11px)}) / 2);
     transition: transform .4s ease-in-out;
-    width: 103px;
+    width: rem(103px);
   }
 }
 
@@ -51,24 +53,24 @@
   white-space: nowrap;
 
   &:hover {
-    &:after {
+    &::after {
       transform: translateX(-15px);
     }
   }
 
-  &:after {
+  &::after {
     content: '';
     background: {
       image: url($image-location+$image-name+'.svg');
-      size: 103px 11px;
       position: cover;
       repeat: no-repeat;
+      size: 100%;
     }
-    height: 11px;
-    top: calc((100% - 11px) / 2);
+    height: rem(11px);
     position: absolute;
     right: 105%;
+    top: calc((100% - #{rem(11px)}) / 2);
     transition: transform .4s ease-in-out;
-    width: 103px;
+    width: rem(103px);
   }
 }

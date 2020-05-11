@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles.scss'; // remove this when creating a new project
+import './styles.scss';
 
 class ProjectImage extends Component {
   render() {
@@ -8,10 +8,10 @@ class ProjectImage extends Component {
       this.props.isHomepage ? ' is-homepage' : ''
     ]
     return (
-      <div className={`${classes.join(' ')}`} data-color={ `color-${this.props.color}` }>
-        <img alt={ `${this.props.title}` } src={ `${this.props.image}` } />
+      <figure className={`${classes.join(' ')}`} data-color={`color-${this.props.color}`}>
+        <img alt={`${this.props.title}`} src={`${this.props.image}`} />
         <span className="proj-image__type">{this.props.type}</span>
-      </div>
+      </figure>
     );
   }
 }

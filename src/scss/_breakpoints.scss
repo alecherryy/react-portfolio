@@ -1,12 +1,12 @@
 // @file
 // Breakpoints
 
-$screen-xs-min: 425px;  // Tiny phones
-$screen-sm-min: 576px;  // Small tablets and large smartphones (landscape view)
-$screen-md-min: 768px;  // Small tablets (portrait view)
-$screen-lg-min: 992px;  // Tablets and small desktops
-$screen-xl-min: 1200px; // Large tablets and desktops
-$screen-xxl-min: 1600px; // Large tablets and desktops
+$screen-xs-min: rem(425px);  // Tiny phones
+$screen-sm-min: rem(576px);  // Small tablets and large smartphones (landscape view)
+$screen-md-min: rem(20px);  // Small tablets (portrait view)
+$screen-lg-min: rem(992px);  // Tablets and small desktops
+$screen-xl-min: rem(1200px); // Large tablets and desktops
+$screen-xxl-min: rem(1600px); // Large tablets and desktops
 
 // Mixins
 @mixin bp-xsmall { @media (min-width: #{$screen-xs-min}) {@content;} } // Tiny devices

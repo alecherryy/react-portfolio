@@ -1,12 +1,12 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Hamburger menu
 
-@import '../../scss/styles.scss';
-
-$icon-height: 20px;
-$icon-width: 44px;
+$icon-height: rem(20px);
+$icon-width: rem(44px);
 $icon-bar-width-sm: 9px;
-$icon-distance: 15px;
+$icon-distance: rem(15px);
 
 .hamburger {
   @include button-clear();
@@ -77,14 +77,14 @@ $icon-distance: 15px;
   span {
     display: block;
     background-color: $white;
-    height: 2px;
+    height: rem(2px);
     position: absolute;
     transition: all .2s ease-in-out;
 
     &:nth-child(2), 
     &:last-child {
       content: '';
-      height: 2px;
+      height: rem(2px);
       position: absolute;
       right: 0;
       transition: all .2s ease-in;
@@ -98,20 +98,20 @@ $icon-distance: 15px;
 
     &:nth-child(2) {
       top: $icon-bar-width-sm;
-      width: 16px;
+      width: rem(16px);
     }
     
     &:last-child {
       bottom: 0;
-      width: 27px;
+      width: rem(27px);
     }
   }
 
   &:hover {
     span {
       &:first-child {
-        right: 28px;
-        width: 16px;
+        right: rem(28px);
+        width: rem(16px);
       }
 
       &:nth-child(2) {
@@ -120,8 +120,8 @@ $icon-distance: 15px;
       }
       
       &:last-child {
-        width: 27px;
-        right: 17px;
+        width: rem(27px);
+        right: rem(17px);
       }
     }
   }
