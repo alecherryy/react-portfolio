@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './App.scss';
 import data from './data.json';
 import MobileImages from './components/MobileImages';
+import Constrain from './components/Constrain';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Constrain>
         <MobileImages 
           title="Hello there"
           image={data.mobile}
@@ -22,7 +23,7 @@ class App extends Component {
           image={data.mobile}
           name="responsive"
         />
-      </div>
+      </Constrain>
     );
   }
 }

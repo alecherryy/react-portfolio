@@ -4,15 +4,23 @@
 @import '../../scss/styles.scss';
 
 .mobile {
-
-  &:nth-child(even) {
-    text-align: right;
-  }
-}
-
-.mobile__item {
-  display: inline-block;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 4rem 0;
   position: relative;
+  
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    
+    .mobile__word {
+      transform: rotate(-90deg) translateY(-25%);
+    }
+  }
+
+  @include bp-medium {
+    padding: 0;
+  }
 }
 
 .mobile__img {
@@ -24,21 +32,20 @@
 }
 
 .mobile__word {
-  color: rgba(255,63,87,.3);
+  color: $pink;
   display: inline-block;
   font-family: $header-font-family;
   font-weight: 700;
   font-size: 120px;
-  // left: 0;
-  position: absolute;
-  transform: rotate(-90deg);
-  transform-origin: 100% 0;
+  opacity: 0.3;
+  transform: rotate(-90deg) translateY(-225%);
+  transform-origin: 350px 0;
   white-space: nowrap;
   z-index: -1;
 
   .color--bg-magenta &,
   .color--bg-magenta-dark &,
   .color--bg-purple & {
-    color: rgba(255,214,194,.3);
+    color: $orange;
   }
 }
