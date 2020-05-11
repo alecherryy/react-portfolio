@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Projects from './components/Projects';
+import Constrain from './components/Constrain';
+import ProjectDetail from './components/ProjectDetail';
 
 class App extends Component {
   render() {
     return (
-      <Projects />
+      <Constrain>
+        <ProjectDetail />
+      </Constrain>
     );
   }
 }

@@ -11,4 +11,12 @@
   @include bp-medium {
     padding: 0 2rem;
   }
+
+  &.constrain-small {
+    max-width: 800px;
+  }
+
+  + .constrain-small {
+    padding: 0;
+  }
 }

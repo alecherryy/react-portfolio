@@ -4,7 +4,7 @@ import Hero from '../Hero';
 import Content from '../Content';
 import ProjectTeaser from '../ProjectTeaser';
 
-class About extends Component {
+class Homepage extends Component {
   render() {
     return (
       <div className='homepage'>
@@ -33,4 +33,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Homepage;

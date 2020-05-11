@@ -17,14 +17,12 @@ class HamburgerMenu extends Component {
   }
 
   render() {
+    const classes = [
+      'hamburger',
+      this.state.isOpen ? ' is-open' : ''
+    ]
     return (
-      <button 
-        type="button"
-        className={
-          this.state.isOpen ? 'Hamburger isOpen' : 'Hamburger'
-        }
-        onClick={this.handleClick}
-      >
+      <button type="button" className={classes.join(' ')} onClick={this.handleClick}>
         <span />
         <span />
         <span />
