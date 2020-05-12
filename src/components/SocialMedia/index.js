@@ -1,4 +1,4 @@
-import data from '../../data.json';
+import data from '../../content/data.json';
 import React, { Component } from 'react';
 import './styles.scss';
 

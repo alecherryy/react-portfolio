@@ -1,0 +1,17 @@
+{
+  "email": "sample@email.com",
+  "phone": "+12063932687",
+  "phone_formatted": "+1 (206) 393-2687",
+  "intro": "Got a project you’d like to collaborate on? Have ideas? Or simply want to say hi?",
+  "squares": [
+    "/images/contact/square-1.svg",
+    "/images/contact/square-2.svg",
+    "/images/contact/square-3.svg",
+    "/images/contact/square-4.svg",
+    "/images/contact/square-5.svg",
+    "/images/contact/square-6.svg",
+    "/images/contact/square-7.svg",
+    "/images/contact/square-8.svg",
+    "/images/contact/square-9.svg"
+  ]
+}
