@@ -8,32 +8,35 @@
   .footer & {
     margin: 0;
   }
-  // .social-media-wrapper & {
-  //   position: absolute;
-  //   bottom: 15px;
-  //   left: calc((100% - 309px)/2);
+  
+  .contact & {
+    bottom: 0.5rem;
+    position: absolute;
 
-  //   @include bp-medium {
-  //     bottom: 45px;
-  //     left: 135px;
-  //   }
-  // }
+    @include bp-xxlarge {
+      bottom: 2rem;
+    }
+  }
 
   .social-media__item {
-    // opacity: 0;
-    padding: 0 4rem 0 0.5rem;
+    opacity: 0;
+    padding: 0 5rem 0 0.5rem;
     position: relative;
     transform: translateY(5px);
 
     &::before {
-      content: '';
       background-color: $white;
+      content: '';
       display: block;
       height: 1px;
-      left: rem(50px);
+      left: 50px;
       position: absolute;
-      top: rem(15px);
+      top: calc((100% - #{rem(15px)}) / 2);
       width: 0;
+
+      .contact & {
+        animation: main-menu-social-before .4s ease-in-out .4s 1 forwards; 
+      }
     }
 
     &:last-child {
@@ -44,40 +47,45 @@
       }
     }
 
-    // @include bp-medium {
-    //   padding: 0 85px 0 10px;
+    .contact & {
+      animation: main-menu-social .2s ease-in-out .4s 1 both;
+    }
 
-    //   &::before {
-    //     left: 60px;
-    //     top: 19px;
-    //   }
-    // }
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}n) {
+        animation-delay: #{$i * .2}s;
+      }
+      
+      &:nth-child(#{$i}n)::before {
+        animation-delay: #{$i * .2}s;
+      }
+    }
   }
 
   .social-media__link {
     display: block;
     color: transparent;
     font: 0/0 a;
-    height: rem(30px);
+    height: rem(40px);
     text-shadow: none;
-    width: rem(30px);
+    width: rem(40px);
     position: relative;
 
     &::before,
     &::after {
-    content: '';
-    color: transparent;
-    height: rem(30px);
-    text-shadow: none;
-    width: rem(30px);
-    background: {
-      position: center;
-      repeat: no-repeat;
-      size: 100%;
-    }
-    position: absolute;
-    top: 0;
-    left: 0;
+      background: {
+        position: center;
+        repeat: no-repeat;
+        size: 100%;
+      }
+      content: '';
+      color: transparent;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      text-shadow: none;
+      top: 0;
+      width: 100%;
     }
 
     @include bp-medium {
@@ -168,5 +176,23 @@
   
   &::after {
     background-image: url('../../images/twitter-hover.svg');
+  }
+}
+
+@keyframes main-menu-social {
+  to {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes main-menu-social-before {
+  to {
+    width: rem(75px);
   }
 }

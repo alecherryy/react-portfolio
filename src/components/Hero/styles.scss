@@ -19,6 +19,35 @@
       flex: 1 0 0;
     }
   }
+
+  &.hero--contact {
+    font-size: $font-size-xl;
+
+    .hero__title {
+      margin: 0 0 1rem;
+      position: static;
+    }
+
+    p {
+      max-width: 50%;
+    }
+
+    a {
+      display: inline-block;
+      font-family: $base-font-family;
+      font-size: $font-size-xl;
+      margin: 0 0 1rem;
+
+      &:hover,
+      &:focus {
+        color: $pink;
+      }
+    }
+
+    .hero__left {
+      margin: 0 0 4rem;
+    }
+  }
 }
 
 .hero__left {
@@ -54,7 +83,7 @@
     }
   }
 
-  @include bp-xlarge {
+  @include bp-large {
     font-size: rem(88px);
   }
 }
