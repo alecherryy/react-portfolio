@@ -7,7 +7,7 @@ import SocialMedia from '../SocialMedia';
 class Contact extends Component {
   render() {
     return (
-      <div class="contact">
+      <div className="contact">
         <Constrain>
           <HeroContact
             intro={contact.intro}

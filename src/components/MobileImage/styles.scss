@@ -32,20 +32,14 @@
 }
 
 .mobile__word {
-  color: $pink;
+  color: $white;
   display: inline-block;
   font-family: $header-font-family;
   font-weight: 700;
   font-size: 120px;
-  opacity: 0.3;
+  opacity: 0.15;
   transform: rotate(-90deg) translateY(-225%);
   transform-origin: 350px 0;
   white-space: nowrap;
   z-index: -1;
-
-  .color--bg-magenta &,
-  .color--bg-magenta-dark &,
-  .color--bg-purple & {
-    color: $orange;
-  }
 }

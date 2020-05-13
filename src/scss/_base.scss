@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  background: $magenta-dark;
   color: $black;
   margin: 0;
   overflow-x: hidden;
@@ -22,28 +21,39 @@ body {
     overflow-y: hidden;
   }
 
-
-  &.color-purple-dark {
+  &[data-color='purple-dark'] {
     background-color: $purple-dark;
   }
 
-  &.color-magenta {
+  &[data-color='magenta-dark'] {
+    background-color: $magenta-dark;
+  }
+
+  &[data-color='magenta'] {
     background-color: $magenta;
   }
   
-  &.color-magenta-2 {
+  &[data-color='magenta-2'] {
     background-color: $magenta-2;
   }
-  
-  &.color-magenta-dark {
-    background-color: $magenta-dark;
+
+  &[data-color='pink'] {
+    background-color: $pink;
   }
   
-  &.color-purple {
+  &[data-color='purple'] {
     background-color: $purple;
   }
+
+  [data-color='purple-dark'] {
+    background-color: $purple-dark;
+  }
   
-  &.color-orange-light {
+  &[data-color='orange'] {
+    background-color: $orange;
+  }
+
+  &[data-color='orange-light'] {
     background-color: $orange-light;
   }
 }

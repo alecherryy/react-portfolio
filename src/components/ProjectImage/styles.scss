@@ -1,78 +1,82 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Project teaser
 
-@import '../../scss/styles.scss';
-
 .proj-image {
+  @include semi-circle;
+  
   color: $white;
+  margin: 0;
   position: relative;
-  z-index: 1;
   
-
-  &.is-homepage {
-    &::before {
-      background: {
-        position: center;
-        repeat: no-repeat;
-        size: rem(270px) rem(135px);
-      }
-      bottom: -20px;
-      content: '';
-      height: rem(135px);
-      left: auto;
-      position: absolute;
-      right: rem(-75px);
-      transform: rotate(15deg);
-      transition: transform 1s ease-in-out;
-      width: rem(270px);
-      z-index: -1;
-  
-      .is-rotating & {
-        transform: rotate(5deg);
-      }
-      
-      .color-magenta & {
-        background-image: url('../../images/semi-circle-magenta.svg');
-      }
-    }
-
-    @include bp-medium {
-      flex-basis: calc(100% - #{rem(380px)});
-    }
+  @include bp-large {
+    flex-basis: 75%;
   }
 }
 
 .proj-image__type {
-  color: $pink;
+  color: $white;
   display: block;
   font: {
     family: $header-font-family;
     size: $font-size-xxxl;
+    weight: 900;
   }
   margin: -1rem 0 0;
-  opacity: 0.3;
+  opacity: 0.15;
+  text-align: center;
   transition: all 1s ease-in-out;
   width: 100%;
   z-index: -1;
 
-  .color-magenta &,
-  .color-magenta-dark &,
-  .color-purple & {
-    color: $orange;
-  }
-
   @include bp-small {
     font-size: rem(98px);
-    text-align: center;
   }
 
   @include bp-medium {
     font-size: rem(120px);
     position: absolute;
-    top: 90%;
+    top: 92%;
   }
   
   @include bp-xlarge {
     font-size: rem(140px);
   }
+
+  // [data-color='purple-dark'] & {
+  //   color: $purple-dark;
+  // }
+
+  // [data-color='magenta-dark']  & {
+  //   color: $magenta-dark;
+  // }
+
+  // [data-color='magenta'] & {
+  //   color: $magenta;
+  // }
+  
+  // [data-color='magenta-2'] & {
+  //   color: $magenta-2;
+  // }
+
+  // [data-color='pink'] & {
+  //   color: $pink;
+  // }
+  
+  // [data-color='purple'] & {
+  //   color: $purple;
+  // }
+
+  // [data-color='purple-dark'] & {
+  //   color: $purple-dark;
+  // }
+  
+  // [data-color='orange'] & {
+  //   color: $orange;
+  // }
+
+  // [data-color='orange-light'] & {
+  //   color: $orange-light;
+  // }
 }

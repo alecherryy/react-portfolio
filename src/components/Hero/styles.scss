@@ -112,12 +112,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin: auto;
-  max-width: rem(400px);
+  max-width: rem(480px);
   transform-style: preserve-3d;
   transform: translateY(50%);
 
   @include bp-xlarge {
-    max-width: rem(450px);
+    max-width: rem(510px);
   }
 
   img {

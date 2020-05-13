@@ -8,10 +8,6 @@
   max-width: rem(1420px);
   padding: 0 1rem;
 
-  @include bp-medium {
-    padding: 0 2rem;
-  }
-
   &.constrain-small {
     max-width: rem(800px);
   }

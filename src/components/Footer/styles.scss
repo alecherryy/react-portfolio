@@ -5,15 +5,15 @@
 
 .footer {
   background-color: $white;
-  padding: 3rem 0;
 }
 
 .footer__inner {
 
-  @include bp-small {
+  @include bp-medium {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 25vh;
   }
 }
 
@@ -25,17 +25,19 @@
   text-transform: uppercase;
 }
 
-.footer__email {
-  @include arrow-link($black, 'arrow-black-right');
+.footer__left {
+  a {
+    @include arrow-link($black, 'arrow-black-right');
 
-  font-family: $base-font-family;
-  font-size: $font-size-md;
-
-  &:hover {
-    color: $magenta;
-  }
-
-  @include bp-medium {
-    font-size: $font-size-lg;
+    font-family: $base-font-family;
+    font-size: $font-size-md;
+  
+    &:hover {
+      color: $magenta;
+    }
+  
+    @include bp-medium {
+      font-size: $font-size-lg;
+    }
   }
 }
