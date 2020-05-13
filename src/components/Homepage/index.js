@@ -1,23 +1,22 @@
-import data from '../../data.json';
+import homepage from '../../content/homepage.json';
 import React, { Component } from 'react';
 import Hero from '../Hero';
-import Content from '../Content';
+import Constrain from '../Constrain';
 import ProjectTeaser from '../ProjectTeaser';
+import Footer from '../Footer';
 
 class Homepage extends Component {
   render() {
     return (
-      <div className='homepage'>
-        <Hero 
+      <div className="homepage">
+        <Constrain>
+        <Hero
           isHomepage={true}
-          squares={ data.homepage.squares }
-          profession={ "front end developer" }
-          intro={ data.homepage.intro }
+          intro={homepage.info.intro}
+          squares={homepage.info.squares}
         />
-
-        <Content>
           {
-            data.homepage.teasers.map(function(object, i) { 
+            homepage.projects.map(function(object, i) { 
               return <ProjectTeaser 
                       color={object.color}
                       image={object.image}
@@ -27,7 +26,10 @@ class Homepage extends Component {
                     />
             })
           }
-        </Content>
+        </Constrain>
+        <Footer
+          email={homepage.info.email}
+        />
       </div>
     );
   }

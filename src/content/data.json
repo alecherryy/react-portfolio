@@ -1,10 +1,12 @@
 {
-  "mobile": "/images/nopanic/nopanic-mobile-1.png",
   "global": {
     "email": "hello@alecherryy.io",
+    "phone": "+12063932687",
+    "phone_formatted": "+1 (206) 393-2687",
     "latest_project" : {
       "title": "no panic agency",
-      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret."
+      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret.",
+      "url": "nopanic"
     },
     "social": {
       "github": "https://github.com/alecherryy/",
@@ -12,54 +14,6 @@
       "linkedin": "https://www.linkedin.com/in/alessiapizzoccheri/",
       "twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
     }
-  },
-  "homepage": {
-    "intro" : "My name is Alessia and I am a developer based out of New York. I care about pretty designs, intuitive interfaces and accessibility.",
-    "squares": [
-      "/images/homepage/square-1.svg",
-      "/images/homepage/square-2.svg",
-      "/images/homepage/square-3.svg",
-      "/images/homepage/square-4.svg",
-      "/images/homepage/square-5.svg",
-      "/images/homepage/square-6.svg",
-      "/images/homepage/square-7.svg",
-      "/images/homepage/square-8.svg",
-      "/images/homepage/square-9.svg"
-    ],
-    "teasers": [
-      {
-        "title": "no panic agency",
-        "color": "purple",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      },
-      {
-        "title": "Sonosite",
-        "color": "magenta-dark",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "drupal 8",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      },
-      {
-        "title": "Vilcek Foundation",
-        "color": "magenta",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      },
-      {
-        "title": "Catalyst",
-        "color": "orange",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      }
-    ]
   },
   "projects": {
     "teasers": [

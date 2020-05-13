@@ -1,0 +1,45 @@
+{
+  "info": {
+    "email": "sample@email.com",
+    "phone": "+12063932687",
+    "phone_formatted": "+1 (206) 393-2687",
+    "intro": "My name is Alessia and I am a developer based out of New York. I care about pretty designs, intuitive interfaces and accessibility.",
+    "squares": [
+      "/images/contact/square-1.svg",
+      "/images/contact/square-2.svg",
+      "/images/contact/square-3.svg",
+      "/images/contact/square-4.svg",
+      "/images/contact/square-5.svg",
+      "/images/contact/square-6.svg",
+      "/images/contact/square-7.svg",
+      "/images/contact/square-8.svg",
+      "/images/contact/square-9.svg"
+    ]
+  },
+  "projects": [
+    {
+      "color": "purple",
+      "title": "no panic",
+      "image": "/images/nopanic/nopanic-featured.png",
+      "type": "wordpress",
+      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in corporate identity, marketing, copyrighting, print and branding.",
+      "path": "#"
+    },
+    {
+      "color": "magenta-2",
+      "title": "Vilcek Foundation",
+      "image": "/images/vilcek/vilcek-featured.png",
+      "type": "wordpress",
+      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States.",
+      "path": "#"
+    },
+    {
+      "color": "magenta",
+      "title": "Catalyst",
+      "image": "/images/catalyst/catalyst-featured.png",
+      "type": "wordpress",
+      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women.",
+      "path": "#"
+    }
+  ]
+}

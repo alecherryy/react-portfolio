@@ -1,32 +1,40 @@
+@import '../../scss/styles.scss';
+
 // @file
 // Project teaser
 
-@import '../../scss/styles.scss';
-
 .proj-teaser {
+  min-height: 100vh;
   padding: 5rem 0;
   transition: all .6s ease-in-out;
 
-  @include bp-medium {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    padding: 0;
+  &:nth-of-type(even) {
+    .proj-image {
+      @include semi-circle-reverse;
+    }
   }
 
-  &:nth-child(even) {
-    .proj-teaser__inner {
-      @include bp-medium {
+  @include bp-large {
+    align-items: center;
+    display: flex;
+    padding: 0;
+
+    &:nth-of-type(even) {
+      .proj-teaser__inner {
         flex-direction: row-reverse;
+        
+        .proj-teaser__bottom {
+          left: 0;
+          right: auto;
+        }
       }
     }
+  }
 
-    .proj-teaser__bottom {
-    
-      @include bp-large {
-        margin-left: 0;
-        margin-right: rem(-50px);
+  &.is-rotating {
+    .proj-image {
+      &::before {
+        transform: rotate(-5deg);
       }
     }
   }
@@ -37,52 +45,15 @@
   color: $white;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
 
   @include bp-large {
     align-items: flex-end;
     flex-direction: row;
+    justify-content: flex-start;
     padding: 0 0 2.75rem;
     position: relative;
-  }
-  
-  @include bp-xlarge {
-    max-width: rem(1200px);
-  }
-}
-
-.proj-teaser__image {
-  position: relative;
-  z-index: 1;
-  
-  &::before {
-    background: {
-      position: center;
-      repeat: no-repeat;
-      size: rem(270px) rem(135px);
-    }
-    bottom: rem(-20px);
-    content: '';
-    height: rem(1)35px;
-    left: auto;
-    position: absolute;
-    right: rem(-75px);
-    transform: rotate(15deg);
-    transition: transform 1s ease-in-out;
-    width: rem(270px);
-    z-index: -1;
-
-    .is-rotating & {
-      transform: rotate(5deg);
-    }
-    
-    .color-magenta & {
-      background-image: url('../../images/semi-circle-magenta.svg');
-    }
-  }
-
-  @include bp-medium {
-    flex-basis: calc(100% - #{rem(380px)});
   }
 }
 
@@ -92,51 +63,18 @@
   h3 {
     color: $white;
     margin: 2rem 0 0;
-    
-    @include bp-large {
-      font-size: $font-size-xl;
-    }
   }
 
   @include bp-large {
-    flex-basis: rem(380px);
-    margin-left: -50px;
+    bottom: 4rem;
+    max-width: rem(400px);
     padding: 0 0 2rem;
-  }
-}
-
-.proj-teaser__type {
-  color: $pink;
-  display: block;
-  font: {
-    family: $header-font-family;
-    size: $font-size-xxxl;
-  }
-  margin: -1rem 0 0;
-  opacity: 0.3;
-  transition: all 1s ease-in-out;
-  width: 100%;
-  z-index: 0;
-
-  .color-magenta &,
-  .color-magenta-dark &,
-  .color-purple & {
-    color: $orange;
-  }
-
-  @include bp-small {
-    font-size: rem(98px);
-    text-align: center;
-  }
-
-  @include bp-medium {
-    font-size: rem(120px);
     position: absolute;
-    top: 82%;
-  }
-  
-  @include bp-xlarge {
-    font-size: rem(140px);
+    right: 0;
+
+    h3 {
+      font-size: $font-size-xl;
+    }
   }
 }
 

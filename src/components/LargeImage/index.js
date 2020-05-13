@@ -6,7 +6,7 @@ class LargeImage extends Component {
   render() {
     return (
       <ConstrainSmall>
-        <Image src={this.props.src} alt={this.props.alt} />
+        <img src={this.props.src} alt={this.props.alt} />
       </ConstrainSmall>
     );
   }

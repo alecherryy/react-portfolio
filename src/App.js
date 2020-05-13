@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Contact from './components/Contact';
+import Homepage from './components/Homepage';
+import Content from './components/Content';
 
 class App extends Component {
   render() {
     return (
-      <Contact />
+      <Content>
+        <Homepage />
+        {/* <Contact /> */}
+      </Content>
     );
   }
 }
