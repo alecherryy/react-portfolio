@@ -86,7 +86,6 @@
       size: rem(270px) rem(135px);
     }
     bottom: rem(117px);
-    content: '';
     height: rem(135px);
     left: auto;
     position: absolute;
@@ -95,6 +94,12 @@
     transition: transform 1s ease-in-out;
     width: rem(270px);
     z-index: -1;
+  }
+
+  @include bp-medium {
+    &::before {
+      content: '';
+    }
   }
 
   @include bp-large {
