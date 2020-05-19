@@ -4,17 +4,26 @@
 @import '../../scss/styles.scss';
 
 .menu {  
-  font-size: $font-size-xl;
+  font-size: $font-size-xxl;
   margin: 0;
   padding: 0;
   
   @include bp-medium {
-    font-size: $font-size-xxl;
+    font-size: $font-size-xxxl;
+  }
+  
+  @include bp-large {
+    font-size: $font-size-xxxl;
+  }
+  
+  @include bp-xxlarge {
+    font-size: rem(88px);
   }
 }
 
 .menu__link {
   color: $white;
+  font-weight: 700;
   position: relative;
 }
 

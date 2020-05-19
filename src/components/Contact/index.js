@@ -1,26 +1,26 @@
 import contact from '../../content/contact.json';
-import React, { Component } from 'react';
+import React from 'react';
 import Constrain from '../Constrain';
 import HeroContact from '../Hero/HeroContact';
 import SocialMedia from '../SocialMedia';
 
-class Contact extends Component {
-  render() {
-    return (
-      <div className="contact">
-        <Constrain>
-          <HeroContact
-            intro={contact.intro}
-            email={contact.email}
-            phone={contact.phone}
-            phone_formatted={contact.phone_formatted}
-            squares={contact.squares}
-          />
-          <SocialMedia />
-        </Constrain>
-      </div>
-    );
-  }
+const Contact = () => {
+  const { intro, email, phone, phone_formatted, squares } = contact;
+
+  return (
+    <div className="contact">
+      <Constrain>
+        <HeroContact
+          intro={intro}
+          email={email}
+          phone={phone}
+          phone_formatted={phone_formatted}
+          squares={squares}
+        />
+        <SocialMedia />
+      </Constrain>
+    </div>
+  );
 }
 
 export default Contact;

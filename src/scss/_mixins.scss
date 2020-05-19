@@ -20,6 +20,7 @@
 
 @mixin arrow-link($color, $image-name, $image-location: '../../images/') {
   color: $color;
+  display: inline-block;
   position: relative;
   white-space: nowrap;
 
@@ -48,6 +49,7 @@
 
 @mixin arrow-link-reverse($color, $image-name, $image-location: '../../images/') {
   color: $color;
+  display: inline-block;
   font-family: $header-font-family;
   position: relative;
   white-space: nowrap;
