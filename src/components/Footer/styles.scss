@@ -8,12 +8,12 @@
 }
 
 .footer__inner {
+  padding: 4rem 0;
 
-  @include bp-medium {
+  @include bp-large {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 25vh;
   }
 }
 
@@ -26,11 +26,13 @@
 }
 
 .footer__left {
+
   a {
     @include arrow-link($black, 'arrow-black-right');
 
     font-family: $base-font-family;
     font-size: $font-size-md;
+    transition: color 0.3s ease-in-out;
   
     &:hover {
       color: $magenta;
@@ -39,5 +41,13 @@
     @include bp-medium {
       font-size: $font-size-lg;
     }
+  }
+}
+
+.footer__right {
+  margin: 4rem 0 0;
+
+  @include bp-large {
+    margin: 0;
   }
 }

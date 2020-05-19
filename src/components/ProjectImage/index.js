@@ -1,15 +1,23 @@
-import React, { Component } from 'react';
+import AOS from 'aos';
+import React from 'react';
 import './styles.scss';
 
-class ProjectImage extends Component {
-  render() {
-    return (
-      <figure className="proj-image" data-color={`${this.props.color}`}>
-        <img alt={`${this.props.title}`} src={`${this.props.image}`} />
-        <span className="proj-image__type">{this.props.type}</span>
-      </figure>
-    );
-  }
+const ProjectImage = ({ color, title, image, type }) => {
+  AOS.init({
+    duration: 1000,
+  });
+
+  return (
+    <figure 
+      className="proj-image" 
+      data-color={`${color}`}>
+      <img 
+        data-aos="fade-up"
+        alt={`${title}`} 
+        src={`${image}`} />
+      <span className="proj-image__type">{type}</span>
+    </figure>
+  );
 }
 
 export default ProjectImage;

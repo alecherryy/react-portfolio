@@ -1,20 +1,18 @@
 import React from 'react';
 import Hero from '../../Hero';
 
-class HeroContact extends Hero {
-  render() {
-    return (
-      <Hero
-        isHomepage={false}
-        modifierClasses="hero--contact"
-        intro={this.props.intro}
-        email={this.props.email}
-        phone={this.props.phone}
-        phone_formatted={this.props.phone_formatted}
-        squares={this.props.squares}
-      />
-    );
-  }
+const HeroContact = ({ intro, email, phone, phone_formatted, squares }) => {
+  return (
+    <Hero
+      isHomepage={false}
+      modifierClasses="hero--contact"
+      intro={intro}
+      email={email}
+      phone={phone}
+      phone_formatted={phone_formatted}
+      squares={squares}
+    />
+  )
 }
 
 export default HeroContact;

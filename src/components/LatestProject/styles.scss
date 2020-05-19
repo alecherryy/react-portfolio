@@ -31,16 +31,15 @@
   color: $white;
   font: {
     family: $header-font-family;
-    size: $font-size-xs;
+    size: $font-size-sm;
     weight: 700;
   }
   text-transform: uppercase;
 }
 
 .latest-project__link {
-  @include arrow-link($white, arrow-white-right);
+  @include arrow-link($white, 'arrow-white-right');
 
-  font-size: $font-size-xs;
-  font-weight: 700;
+  font-family: $header-font-family;
   text-transform: uppercase;
 }
