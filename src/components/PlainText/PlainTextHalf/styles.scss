@@ -1,0 +1,17 @@
+@import '../../../scss/styles.scss';
+
+// @file
+// Plain text half
+
+.plain-text--half {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0;
+
+  @include bp-large {
+    max-width: 50%;
+    padding: 0;
+  }
+}

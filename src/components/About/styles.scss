@@ -1,31 +1,19 @@
-// // @file
-// // About page
+@import '../../scss/styles.scss';
 
-// @import '../../scss/styles.scss';
+// @file
+// Contact
 
-// .overlay {
-//   align-items: center;
-//   background-color: $pink;
-//   display: flex;
-//   flex-flow: column;
-//   height: 100vh;
-//   justify-content: center;
-//   position: fixed;
-//   right: 0;
-//   top: 0;
-//   width: 100vw;
+.about {
+  background-color: $purple;
+  color: $white;
 
-//   @include bp-medium {
-//     flex-flow: row;
-//   }
-// }
-
-// .overlay__inner {
-//   max-width: 1200px;
+  h1,
+  h2,
+  h3 {
+    color: $white;
+  }
   
-//   @include bp-medium {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-gap: 55px;
-//   }
-// }
+  h3 {
+    margin: 0 0 4rem;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../scss/styles.scss';
+
+// @file
+// Grid
+
+.grid {
+  display: flex;
+  padding: 0 0 4rem;
+
+  > * {
+    align-self: center;
+    flex-basis: calc(100% / 2);
+    padding: 0 0.5rem;
+    margin: auto;
+  }
+
+  @include bp-medium {
+    padding: 0 0 10rem;
+
+    > * {
+      flex-basis: calc(100% / 4);
+    }
+  }
+
+  @supports (display: grid) {
+    display: grid;
+    grid-gap: rem(33px);
+    grid-gap: rem(66px);
+    grid-template-columns: repeat(2, 1fr);
+    
+    @include bp-xlarge {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
