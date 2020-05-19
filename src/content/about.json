@@ -1,0 +1,57 @@
+{
+  "info": {
+    "title": "Hello, there.",
+    "intro": "My name is Alessia, I am a front end and UI developer based out of New York, NY. I am currently working full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design.",
+    "content": "I am currently pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
+    "clients": [
+      {
+        "image": "/images/logos/html.svg",
+        "name": "HTML5"
+      },
+      {
+        "image": "/images/logos/sass.svg",
+        "name": "Sass"
+      },
+      {
+        "image": "/images/logos/javascript.svg",
+        "name": "JavaScript"
+      },
+      {
+        "image": "/images/logos/jquery.svg",
+        "name": "jQuery"
+      },
+      {
+        "image": "/images/logos/react.svg",
+        "name": "React"
+      },
+      {
+        "image": "/images/logos/pattern-lab.svg",
+        "name": "Pattern Lab"
+      },
+      {
+        "image": "/images/logos/java.svg",
+        "name": "Java"
+      },
+      {
+        "image": "/images/logos/python.svg",
+        "name": "Python"
+      },
+      {
+        "image": "/images/logos/wordpress.svg",
+        "name": "Wordpress"
+      },
+      {
+        "image": "/images/logos/drupal.svg",
+        "name": "drupal"
+      },
+      {
+        "image": "/images/logos/leaflet.svg",
+        "name": "LeafLet"
+      },
+      {
+        "image": "/images/logos/github.svg",
+        "name": "GitHub"
+      }
+    ]
+  }
+}

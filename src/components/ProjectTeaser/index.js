@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AOS from 'aos';
+
 import ProjectImage from '../ProjectImage';
 import './styles.scss';
 
 class ProjectTeaser extends Component {
   componentDidMount() {
-    AOS.init();
+    ();
     window.addEventListener('scroll', this.handleScroll);
   }
   
