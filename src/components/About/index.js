@@ -1,5 +1,4 @@
 import about from '../../content/about.json';
-import data from '../../content/data.json';
 import React from 'react';
 import PlainTextHalf from '../PlainText/PlainTextHalf';
 import Constrain from '../Constrain';
@@ -9,7 +8,6 @@ import './styles.scss';
 
 const About = () => {
   const { title, intro, clients } = about.info;
-  const { email } = data.global;
 
   return (
     <div className="about">
@@ -39,7 +37,7 @@ const About = () => {
           }
         </Grid>
       </Constrain>
-      <Footer email={email}/>
+      <Footer />
     </div>
   );
 }

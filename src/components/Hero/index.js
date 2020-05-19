@@ -1,12 +1,15 @@
-
 import React, { Component } from 'react';
 import Squares from '../Squares';
 import './styles.scss';
 
 class Hero extends Component {
   componentDidMount() {
-    document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : '';
+    document.body.className = 'purple-dark';
     window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   handleScroll = () => {
@@ -17,13 +20,10 @@ class Hero extends Component {
       window.pageYOffset > (el.getBoundingClientRect().bottom / 2) &&
       window.pageYOffset <= offsetTop
     ) {
-      document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : '';
+      document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : 'magenta-2';
     }
   }
   render() {
-    ({
-      duration: 1000,
-    });
 
     const classes = [
       'hero',
@@ -36,14 +36,14 @@ class Hero extends Component {
         ref={ (ref) => { this.myRef = ref } }
       >
         {this.props.isHomepage ?
-          <div className="hero__left" >
+          <div className="hero__left">
             <h1 className="hero__title">I am a<br />
               <span>front end developer</span>
             </h1>
             <p className="hero__content">{this.props.intro}</p>
           </div>
         :
-          <div className="hero__left" >
+          <div className="hero__left">
             <p>{this.props.intro}</p>
             <h1 className="hero__title">Get in touch by email or phone</h1>
             <a href={`mailto:${this.props.email}`}>{this.props.email}</a><br />

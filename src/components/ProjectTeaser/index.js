@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-
 import ProjectImage from '../ProjectImage';
 import './styles.scss';
 
 class ProjectTeaser extends Component {
   componentDidMount() {
-    ();
     window.addEventListener('scroll', this.handleScroll);
   }
   
   componentWillUnmount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   handleScroll = () => {

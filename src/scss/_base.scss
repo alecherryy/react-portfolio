@@ -17,6 +17,14 @@ body {
   transition: background-color 1s ease-in-out;
   word-wrap: break-word;
 
+  &.purple-dark {
+    background-color: $purple-dark;
+  }
+
+  &.magenta-dark {
+    background-color: $magenta-dark;
+  }
+
   &.no-scroll {
     overflow-y: hidden;
   }

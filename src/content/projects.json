@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "color": "purple",
+      "title": "no panic",
+      "image": "/images/nopanic/nopanic-featured.png",
+      "type": "wordpress",
+      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in corporate identity, marketing, copyrighting, print and branding.",
+      "path": "#"
+    },
+    {
+      "color": "magenta-2",
+      "title": "Vilcek Foundation",
+      "image": "/images/vilcek/vilcek-featured.png",
+      "type": "wordpress",
+      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States.",
+      "path": "#"
+    },
+    {
+      "color": "magenta",
+      "title": "Catalyst",
+      "image": "/images/catalyst/catalyst-featured.png",
+      "type": "wordpress",
+      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women.",
+      "path": "#"
+    }
+  ]
+}

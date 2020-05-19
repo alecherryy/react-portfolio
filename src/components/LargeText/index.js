@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ConstrainSmall from '../Constrain/ConstrainSmall';
 
-class LargeText extends Component {
-  render() {
-    return (
-      <ConstrainSmall>
-        <h3>{this.props.content}</h3>
-      </ConstrainSmall>
-    );
-  }
+const LargeText = ({ content }) => {
+  return (
+    <ConstrainSmall>
+      <h3>{content}</h3>
+    </ConstrainSmall>
+  );
 }
 
 export default LargeText;

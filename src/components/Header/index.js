@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Logo from './../Logo';
 import HamburgerMenu from './../HamburgerMenu/index';
 import Overlay from '../Overlay/index';
 
@@ -22,6 +23,7 @@ class Header extends Component {
 
     return (
       <header>
+        <Logo />
         <HamburgerMenu 
           isOpen={open}
           handleClick={this.handleClick}

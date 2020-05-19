@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 class Menu extends Component {
@@ -6,13 +7,13 @@ class Menu extends Component {
     return (
       <ul className="menu">
         <li className="menu__item">
-          <a className="menu__link" href="/projects">Projects</a>
+          <Link className="menu__link" to="/projects">Projects</Link>
         </li>
         <li className="menu__item">
-          <a className="menu__link" href="/about">About</a>
+          <Link className="menu__link" to="/about">About</Link>
         </li>
         <li className="menu__item">
-          <a className="menu__link" href="/contact">Contact</a>
+          <Link className="menu__link" to="/contact">Contact</Link>
         </li>
       </ul>
     );
