@@ -6,7 +6,7 @@ import Menu from '../Menu';
 import Constrain from '../Constrain';
 import './styles.scss';
 
-const Overlay = ({ visible }) => {
+const Overlay = ({ visible, handleClick, closeMenu }) => {
   const { title, description } = data.global.latest_project;
 
   return (
@@ -16,7 +16,9 @@ const Overlay = ({ visible }) => {
     >
       <Constrain>
         <div className="overlay__left">
-          <Menu />
+          <Menu 
+            handleClick={handleClick}
+          />
         </div>
         <div className="overlay__right">
           <LatestProject 
@@ -24,8 +26,8 @@ const Overlay = ({ visible }) => {
             description={description}
           />
         </div>
-      </Constrain>
       <SocialMedia />
+      </Constrain>
     </div>
   );
 }

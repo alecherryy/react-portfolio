@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.scss';
 
-class Menu extends Component {
-  render() {
-    return (
-      <ul className="menu">
-        <li className="menu__item">
-          <Link className="menu__link" to="/projects">Projects</Link>
-        </li>
-        <li className="menu__item">
-          <Link className="menu__link" to="/about">About</Link>
-        </li>
-        <li className="menu__item">
-          <Link className="menu__link" to="/contact">Contact</Link>
-        </li>
-      </ul>
-    );
-  }
+const Menu = ({handleClick}) => {
+  return (
+    <ul className="menu">
+      <li className="menu__item">
+        <Link className="menu__link" to="/projects" onClick={handleClick}>Projects</Link>
+      </li>
+      <li className="menu__item">
+        <Link className="menu__link" to="/about" onClick={handleClick}>About</Link>
+      </li>
+      <li className="menu__item">
+        <Link className="menu__link" to="/contact" onClick={handleClick}>Contact</Link>
+      </li>
+    </ul>
+  );
 }
 
 export default Menu;

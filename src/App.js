@@ -10,11 +10,13 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import ScrollToTop from './components/ScrollToTop';
 
 class App extends Component {
   render() {
     return (
       <Router>
+          <ScrollToTop />
           <Header />
           <Switch>
             <Route exact path="/">

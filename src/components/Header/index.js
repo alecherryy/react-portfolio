@@ -10,6 +10,7 @@ class Header extends Component {
       menuIsOpen: false
     };
     this.handleClick = this.handleClick.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
   }
 
   handleClick() {
@@ -18,17 +19,26 @@ class Header extends Component {
     }));
   }
   
+  closeMenu () {
+    this.setState({menuIsOpen: false})
+  }
+
   render() {
     const open = this.state.menuIsOpen ? true : false;
 
     return (
       <header>
-        <Logo />
+        <Logo 
+          closeMenu={this.closeMenu}
+        />
         <HamburgerMenu 
           isOpen={open}
           handleClick={this.handleClick}
         />
-        <Overlay visible={`${open}`} />
+        <Overlay 
+          handleClick={this.handleClick}
+          visible={`${open}`} 
+        />
       </header>
     );
   }

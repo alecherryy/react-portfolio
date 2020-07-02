@@ -1,4 +1,4 @@
-@import '../../scss/styles.scss';
+@import '../../scss/variables.scss';
 
 // @file
 // Project teaser
@@ -40,7 +40,7 @@
 
       &:hover,
       &:focus {
-        color: $pink;
+        color: $magenta-dark;
       }
     }
 
@@ -51,7 +51,10 @@
 }
 
 .hero__left {
+  animation: 1s 0.4s 1 cubic-bezier(.24,.56,.25,1) forwards slide-in-title;
+  opacity: 0;
   position: relative;
+  transform: translateY(25%);
   z-index: 2;
 }
 
@@ -152,6 +155,13 @@
   }  
   100% {
     transform: perspective(300px) rotateX(8.07deg) rotateY(0.94deg);
+  }
+}
+
+@keyframes slide-in-title {
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
 

@@ -1,12 +1,14 @@
+@import '../../scss/variables.scss';
+
 // @file
 // Latest project
-
-@import '../../scss/styles.scss';
 
 .latest-project {
   color: $white;
   display: none;
   font-size: $font-size-md;
+  opacity: 0;
+  transform: translateY(15%);
 
   h3 {
     color: $purple;
@@ -24,6 +26,11 @@
 
   @include bp-medium {
     display: block;
+  }
+
+  .overlay[data-visible='true'] & {
+    opacity: 1;
+    transform: none;
   }
 }
 

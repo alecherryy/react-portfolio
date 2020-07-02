@@ -6,6 +6,7 @@ class Hero extends Component {
   componentDidMount() {
     document.body.className = 'purple-dark';
     window.addEventListener('scroll', this.handleScroll);
+    document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : 'magenta';
   }
 
   componentWillUnmount() {
