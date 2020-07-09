@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Squares from '../Squares';
+import Typewriter from 'typewriter-effect';
 import './styles.scss';
 
 class Hero extends Component {
@@ -39,23 +40,30 @@ class Hero extends Component {
         {this.props.isHomepage ?
           <div className="hero__left">
             <h1 className="hero__title">I am a<br />
-              <span>front end developer</span>
+            <Typewriter
+              options={{
+                strings: ['software engineer', 'UI developer', 'web designer', 'beer lover'],
+                autoStart: true,
+                loop: true,
+                pauseFor: 5000,
+                deleteSpeed: 100,
+              }}
+            />
             </h1>
             <p className="hero__content">{this.props.intro}</p>
           </div>
         :
           <div className="hero__left">
             <p>{this.props.intro}</p>
-            <h1 className="hero__title">Get in touch by email or phone</h1>
-            <a href={`mailto:${this.props.email}`}>{this.props.email}</a><br />
-            <a href={`tel:${this.props.phone}`}>{this.props.phone_formatted}</a>
+            <h1 className="hero__title">Get in touch.</h1>
+            <a href={`mailto:${this.props.email}`}>{this.props.email}</a>
           </div>
         }
         <div className="hero__right">
           <div className="hero__squares">
             {
               (this.props.squares || []).map(element => { 
-                return <Squares src={ `${element}` } />
+                return <Squares key={element} src={ `${element}` } />
               })
             }
           </div>

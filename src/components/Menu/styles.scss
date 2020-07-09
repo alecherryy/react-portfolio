@@ -21,12 +21,6 @@
   }
 }
 
-.menu__link {
-  color: $white;
-  font-weight: 700;
-  position: relative;
-}
-
 .menu__item {
   display: block;
   margin: 0 0 1rem;
@@ -46,4 +40,33 @@
   }
 }
 
-.menu__link {}
+.menu__link {
+  color: $white;
+  font-weight: 700;
+  position: relative;
+
+  @include bp-large {
+    transition: all 0.4s ease-in;
+
+    &::before {
+      background-color: $white;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: calc((100% - 1px) / 2);
+      transition: width 0.4s ease-in;
+      width: 0;
+    }
+
+    &:hover,
+    &:focus {
+      padding-left: 95px;
+
+      &::before {
+        width: 75px;
+      }
+    }
+  }
+}

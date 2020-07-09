@@ -25,6 +25,7 @@ class ProjectDetail extends Component {
           data.projects.teasers.map(function(object, i) { 
             return <MobileImage 
                     title="Hello there"
+                    key={data.mobile}
                     image={data.mobile}
                     name="modern"
                   />

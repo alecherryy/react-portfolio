@@ -33,6 +33,7 @@ class NoPanic extends Component {
             />
             { data.desktop_images.map(function(object, i) { 
               return <HeroProject 
+                      key={object.alt}
                       alt={object.alt}
                       image={object.src}
                     />
@@ -40,6 +41,7 @@ class NoPanic extends Component {
             }
             { data.mobile_images.map(function(object, i) { 
               return <MobileImage 
+                      key={object.alt}
                       title={object.alt}
                       image={object.src}
                       name={object.name}

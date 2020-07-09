@@ -6,7 +6,7 @@
       "color": "purple",
       "image": "/images/nopanic/nopanic-featured.png",
       "type": "wordpress",
-      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
+      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design."
     },
     {
       "link": "/vilcek-foundation",
@@ -14,7 +14,7 @@
       "color": "magenta-2",
       "image": "/images/vilcek/vilcek-featured.png",
       "type": "wordpress",
-      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
+      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
     },
     {
       "link": "/cset",
@@ -22,7 +22,7 @@
       "color": "magenta-dark",
       "image": "/images/cset/cset-featured.png",
       "type": "wordpress",
-      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
+      "description": "A policy research organization within Georgetown University’s Walsh School of Foreign Service."
     },
     {
       "link": "/catalyst",

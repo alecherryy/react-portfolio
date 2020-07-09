@@ -17,6 +17,7 @@ const Homepage = () => {
       />
         { homepage.projects.map(function(object, i) { 
           return <ProjectTeaser 
+                  key={object.title}
                   color={object.color}
                   image={object.image}
                   title={object.title}

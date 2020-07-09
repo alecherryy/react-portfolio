@@ -1,8 +1,8 @@
 {
   "info": {
     "title": "Hello, there.",
-    "intro": "My name is Alessia, I am a front end and software engineer based out of New York, NY. I am currently working full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design.",
-    "content": "I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am currently pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
+    "intro": "My name is Alessia, I am a front end and software engineer based out of New York, NY. Born and raised in Italy, I came to the US in 2011 on an athletic scholarship. Since then, I have lived in Miami for 5 years and Seattle for another 3. I travelled up and down the country, visited as many city and national parks as possible; my favorite place is Utah. It's a national park galore.",
+    "content": "I currently work full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design. I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am also pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
     "tools": [
       {
         "image": "/images/clients/fujifilm.svg",

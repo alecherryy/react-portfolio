@@ -38,9 +38,30 @@
       font-size: $font-size-xl;
       margin: 0 0 1rem;
 
-      &:hover,
-      &:focus {
-        color: $magenta-dark;
+      @include bp-large {
+        position: relative;
+        transition: all 0.4s ease-in;
+    
+        &::before {
+          background-color: $white;
+          content: '';
+          display: block;
+          height: 1px;
+          left: 0;
+          position: absolute;
+          top: calc((100% - 1px) / 2);
+          transition: width 0.4s ease-in;
+          width: 0;
+        }
+    
+        &:hover,
+        &:focus {
+          padding-left: 95px;
+    
+          &::before {
+            width: 75px;
+          }
+        }
       }
     }
 
@@ -67,21 +88,23 @@
     left: 0;
     position: absolute;
     top: 0;
+    
+    .homepage & {
+      font-size: $font-size-xxl;
+      width: 100vw;
+    }
 
-    span {
+    .Typewriter {
+      // background-color: $magenta;
       display: inline-block;
+      margin: 1rem 0 0;
       position: relative;
       white-space: nowrap;
-  
-      &::after {
-        content: '';
-        background-color: $magenta-2;
-        bottom: rem(17px);
-        height: rem(13px);
-        left: 0;
-        position: absolute;
-        width: 100%;
-        z-index: -1;
+
+      @include bp-large {
+        .homepage & {
+          font-size: rem(120px);
+        }
       }
     }
   }
@@ -93,12 +116,12 @@
 
 .hero__content {  
   font-size: $font-size-md;
-  margin: 0 0 2rem;
+  margin: 2rem 0 4rem;
   
 
   @include bp-large {
     font-size: $font-size-lg;
-    margin: rem(186px) 0 0;
+    margin: rem(226px) 0 0;
   }
 }
 

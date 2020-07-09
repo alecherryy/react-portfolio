@@ -1,11 +1,10 @@
 {
   "global": {
     "email": "hello@alecherryy.io",
-    "phone": "+12063932687",
     "phone_formatted": "+1 (206) 393-2687",
     "latest_project" : {
       "title": "no panic agency",
-      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret.",
+      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design.",
       "link": "/nopanic"
     },
     "social": {
@@ -14,41 +13,5 @@
       "linkedin": "https://www.linkedin.com/in/alessiapizzoccheri/",
       "twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
     }
-  },
-  "projects": {
-    "teasers": [
-      {
-        "link": "/nopanic",
-        "title": "no panic agency",
-        "color": "purple",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
-      },
-      {
-        "link": "/vilcek-foundation",
-        "title": "Vilcek Foundation",
-        "color": "magenta-2",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
-      },
-      {
-        "link": "/cset",
-        "title": "Center for Security and Emerging Technologies",
-        "color": "magenta-dark",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
-      },
-      {
-        "link": "/catalyst",
-        "title": "Catalyst",
-        "color": "magenta",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
-      }
-    ]
   }
 }

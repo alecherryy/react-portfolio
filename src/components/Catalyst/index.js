@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
 import data from '../../content/catalyst.json';
+import AOS from 'aos';
+import React, { Component } from 'react';
 import HeroProject from '../Hero/HeroProject';
 import ConstrainSmall from '../Constrain/ConstrainSmall';
 import DesignImage from '../DesignImage';
@@ -12,6 +13,11 @@ import NextProject from '../NextProject';
 import Footer from '../Footer';
 
 class Catalyst extends Component {
+
+  componentWillReceiveProps() { 
+    AOS.refresh(); 
+  }
+
   componentDidMount() {
     document.body.dataset.color = data.color;
   }
@@ -40,6 +46,7 @@ class Catalyst extends Component {
           <ConstrainSmall>
             { data.designs.map(function(object, i) { 
               return <DesignImage 
+                      key={object.alt}
                       alt={object.alt}
                       src={object.src}
                     />
