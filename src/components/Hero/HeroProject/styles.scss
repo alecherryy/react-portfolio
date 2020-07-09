@@ -1,4 +1,4 @@
-@import '../../scss/variables.scss';
+@import '../../../scss/variables.scss';
 
 // @file
 // Project teaser
@@ -14,5 +14,18 @@
     height: 100vh;
     justify-content: center;
     padding: 0;
+  }
+  
+  @include bp-large {
+    max-width: rem(992px);
+    min-width: rem(992px);
+  }
+
+  .proj-image {
+    flex-basis: 100%;
+
+    &::before {
+      display: none;
+    }
   }
 }

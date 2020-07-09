@@ -8,6 +8,43 @@
   background-color: $purple;
   display: flex;
   height: 50vh;
+  margin: 5rem 0 0;
+
+  &[data-color='purple-dark'] {
+    background-color: $purple-dark;
+  }
+
+  &[data-color='magenta-dark'] {
+    background-color: $magenta-dark;
+  }
+
+  &[data-color='magenta'] {
+    background-color: $magenta;
+  }
+  
+  &[data-color='magenta-2'] {
+    background-color: $magenta-2;
+  }
+
+  &[data-color='pink'] {
+    background-color: $pink;
+  }
+  
+  &[data-color='purple'] {
+    background-color: $purple;
+  }
+
+  [data-color='purple-dark'] {
+    background-color: $purple-dark;
+  }
+  
+  &[data-color='orange'] {
+    background-color: $orange;
+  }
+
+  &[data-color='orange-light'] {
+    background-color: $orange-light;
+  }
 }
 
 .next-project__inner {

@@ -35,10 +35,6 @@
       }
     }
 
-    .footer & {
-      opacity: 1;
-    }
-
     &::before {
       background-color: $white;
       content: '';
@@ -61,11 +57,6 @@
 
       .footer & {
         background-color: $black;
-        width: 45px;
-
-        @include bp-small {
-          width: 75px;
-        }
       }
     }
 

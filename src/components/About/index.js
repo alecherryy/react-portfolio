@@ -7,7 +7,7 @@ import Footer from '../Footer';
 import './styles.scss';
 
 const About = () => {
-  const { title, intro, clients } = about.info;
+  const { title, intro, content, clients, tools } = about.info;
 
   return (
     <div className="about">
@@ -16,10 +16,14 @@ const About = () => {
           title={title}
           description={intro}
         />
+        <PlainTextHalf 
+          description={content}
+        />
         <h3>Some of the technologies and tools I work with</h3>
         <Grid>
         { clients.map(function(object, i) { 
             return <img
+                    data-aos="slide-up"
                     src={object.image}
                     alt={object.name}
                   />
@@ -28,8 +32,9 @@ const About = () => {
         </Grid>
         <h3>Some of the clients I have collaborated with</h3>
         <Grid>
-        { clients.map(function(object, i) { 
+        { tools.map(function(object, i) { 
             return <img
+                    data-aos="slide-up"
                     src={object.image}
                     alt={object.name}
                   />

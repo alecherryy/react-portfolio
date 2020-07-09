@@ -6,7 +6,7 @@
     "latest_project" : {
       "title": "no panic agency",
       "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at. Pro animal convenire democritum id, qui in nonumes postulant convenire, ex pri omnium delectus. Equidem perfecto vis ut, sed ut everti aperiam iuvaret.",
-      "url": "nopanic"
+      "link": "/nopanic"
     },
     "social": {
       "github": "https://github.com/alecherryy/",
@@ -18,44 +18,36 @@
   "projects": {
     "teasers": [
       {
+        "link": "/nopanic",
         "title": "no panic agency",
         "color": "purple",
         "image": "/images/nopanic/nopanic-macbook.png",
         "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
+        "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
       },
       {
-        "title": "Sonosite",
+        "link": "/vilcek-foundation",
+        "title": "Vilcek Foundation",
+        "color": "magenta-2",
+        "image": "/images/nopanic/nopanic-macbook.png",
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
+      },
+      {
+        "link": "/cset",
+        "title": "Center for Security and Emerging Technologies",
         "color": "magenta-dark",
         "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "drupal 8",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
+        "type": "wordpress",
+        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
       },
       {
-        "title": "Vilcek Foundation",
+        "link": "/catalyst",
+        "title": "Catalyst",
         "color": "magenta",
         "image": "/images/nopanic/nopanic-macbook.png",
         "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      },
-      {
-        "title": "Catalyst",
-        "color": "orange",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
-      },
-      {
-        "title": "Research Technical Assistance Center",
-        "color": "pink",
-        "image": "/images/nopanic/nopanic-macbook.png",
-        "type": "wordpress",
-        "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at",
-        "path": "#"
+        "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
       }
     ]
   }

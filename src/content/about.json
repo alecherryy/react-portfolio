@@ -1,8 +1,30 @@
 {
   "info": {
     "title": "Hello, there.",
-    "intro": "My name is Alessia, I am a front end and UI developer based out of New York, NY. I am currently working full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design.",
-    "content": "I am currently pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
+    "intro": "My name is Alessia, I am a front end and software engineer based out of New York, NY. I am currently working full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design.",
+    "content": "I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am currently pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
+    "tools": [
+      {
+        "image": "/images/clients/fujifilm.svg",
+        "name": "Fujifilm"
+      },
+      {
+        "image": "/images/clients/vilcek.svg",
+        "name": "Vilcek Foundation"
+      },
+      {
+        "image": "/images/clients/bill-and-melinda-foundation.svg",
+        "name": "Bill and Melinda Gates Foundation"
+      },
+      {
+        "image": "/images/clients/colorado-wic.svg",
+        "name": "Colorado WIC"
+      },
+      {
+        "image": "/images/clients/cset.svg",
+        "name": "Center for Security and Emerging Technology"
+      }
+    ],
     "clients": [
       {
         "image": "/images/logos/html.svg",

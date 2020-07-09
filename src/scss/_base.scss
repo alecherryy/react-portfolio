@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: $black;
+  color: $white;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -78,7 +78,7 @@ body {
 
 %hN {
   @extend %header-font-family !optional;
-  color: $black;
+  color: $white;
   font-weight: 700;
   hyphens: none;
   line-height: 1.1;

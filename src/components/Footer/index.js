@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Constrain>
-        <div className="footer__inner" >
+        <div className="footer__inner" data-aos="slide-up">
           <div className="footer__left">
             <span className="footer__eyebrow" >
               Got an idea?

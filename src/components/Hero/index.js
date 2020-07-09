@@ -4,9 +4,9 @@ import './styles.scss';
 
 class Hero extends Component {
   componentDidMount() {
-    document.body.className = 'purple-dark';
-    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
     document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : 'magenta';
+    window.addEventListener('scroll', this.handleScroll);
   }
 
   componentWillUnmount() {

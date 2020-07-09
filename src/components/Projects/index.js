@@ -12,6 +12,7 @@ const Projects = () => {
       <Constrain>
         { projects.content.map(function(object, i) { 
           return <ProjectTeaser 
+                  link={object.link}
                   color={object.color}
                   image={object.image}
                   title={object.title}

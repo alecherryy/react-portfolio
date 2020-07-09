@@ -1,19 +1,17 @@
 import React from 'react';
 import ProjectImage from '../../ProjectImage';
-import ConstrainSmall from '../../Constrain/ConstrainSmall';
 import './styles.scss';
 
-const HeroProject = ({ title, image, type }) => {
+const HeroProject = ({ title, image, type, color }) => {
   return (
-    <div className="project-hero">
-      <ConstrainSmall>
-        <ProjectImage
-          isHomepage={false}
-          title={title}
-          image={image}
-          type={type}
-        />
-      </ConstrainSmall>
+    <div className="project-hero" data-aos="slide-up">
+      <ProjectImage
+        isHomepage={false}
+        title={title}
+        image={image}
+        type={type}
+        color={color}
+      />
     </div>
   )
 }

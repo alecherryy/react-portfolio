@@ -1,11 +1,9 @@
 import React from 'react';
-import ConstrainSmall from '../Constrain/ConstrainSmall';
+import './styles.scss';
 
 const LargeText = ({ content }) => {
   return (
-    <ConstrainSmall>
-      <h3>{content}</h3>
-    </ConstrainSmall>
+    <h2 className="large-text">{content}</h2>
   );
 }
 

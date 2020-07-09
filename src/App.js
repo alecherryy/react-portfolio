@@ -5,15 +5,22 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.scss';
+import AOS from 'aos';
 import Homepage from './components/Homepage';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import ScrollToTop from './components/ScrollToTop';
+import NoPanic from './components/NoPanic';
+import Vilcek from './components/Vilcek';
+import Catalyst from './components/Catalyst';
 
 class App extends Component {
   render() {
+    AOS.init({
+      duration: 800
+    });
     return (
       <Router>
           <ScrollToTop />
@@ -30,6 +37,15 @@ class App extends Component {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/nopanic">
+              <NoPanic />
+            </Route>
+            <Route path="/vilcek-foundation">
+              <Vilcek />
+            </Route>
+            <Route path="/catalyst">
+              <Catalyst />
             </Route>
           </Switch>
       </Router>
