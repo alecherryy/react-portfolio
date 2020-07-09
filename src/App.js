@@ -1,11 +1,11 @@
+import './App.scss';
+import AOS from 'aos';
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
-import './App.scss';
-import AOS from 'aos';
 import Homepage from './components/Homepage';
 import Projects from './components/Projects';
 import About from './components/About';
