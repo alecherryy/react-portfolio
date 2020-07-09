@@ -1,19 +1,37 @@
 {
-  "featured_image": "/images/nopanic/nopanic-macbook.png",
+  "color": "purple",
+  "featured_image": "/images/nopanic/nopanic-featured.png",
   "project_type": "wordpress",
   "title": "nopanic agency",
-  "description": "Lorem ipsum dolor sit amet, delectus cotidieque ut usu, eu mazim blandit persecuti eum. An exerci copiosae gubergren duo, indoctum convenire honestatis ad pro. Vis commodo similique tincidunt in. Eos democritum dissentiunt id, pro utroque insolens adipiscing ei. Eu sit assum oratio. Ne postulant suavitate per. Vis ei summo accumsan albucius, ius semper impetus facilisis te.",
+  "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design. In 2019, they launched their new branding; this included a new logo, typography, colors, office space and everything in between. It's at this time that I was approached to implement their new website.",
+  "summary": "Under the art direction of Paolo Pettigiani and the designs of Erik Bovio, I created a new theme for their Wordpress site to replace their old website. With breathtaking photography, bold typography and a wide range of colors, the new site fully encaptures no panic's new branding and stunning design work.",
   "link": "https://www.nopanic-agency.com/",
   "mobile_images": [
     {
-      "responsive": "/images/nopanic/nopanic-mobile-1.png" 
+      "name": "responsive",
+      "src": "/images/nopanic/nopanic-mobile-menu.png",
+      "alt": "Responsive menu"
     },
     {
-      "modern": "/images/nopanic/nopanic-mobile-1.png"
+      "name": "bold",
+      "src": "/images/nopanic/nopanic-mobile-team.png",
+      "alt": "Team page"
+    },
+    {
+      "name": "modern",
+      "src": "/images/nopanic/nopanic-mobile-work.png",
+      "alt": "Work page"
     }
   ],
   "desktop_images": [
-    "/images/nopanic/nopanic-macbook.png",
-    "/images/nopanic/nopanic-macbook.png"
-  ]
+    {
+      "src": "/images/nopanic/nopanic-desktop-work.png",
+      "alt": "No Panic Agency - Work page"
+    }
+  ],
+  "next": {
+    "color": "magenta-2",
+    "title": "Vilcek Foundation",
+    "url": "/vilcek-foundation"
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "content": [
+    {
+      "link": "/nopanic",
+      "title": "no panic agency",
+      "color": "purple",
+      "image": "/images/nopanic/nopanic-featured.png",
+      "type": "wordpress",
+      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
+    },
+    {
+      "link": "/vilcek-foundation",
+      "title": "Vilcek Foundation",
+      "color": "magenta-2",
+      "image": "/images/vilcek/vilcek-featured.png",
+      "type": "wordpress",
+      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
+    },
+    {
+      "link": "/cset",
+      "title": "Center for Security and Emerging Technologies",
+      "color": "magenta-dark",
+      "image": "/images/cset/cset-featured.png",
+      "type": "wordpress",
+      "description": "Lorem ipsum dolor sit amet, an ius vero ferri electram. Magna autem mea at"
+    },
+    {
+      "link": "/catalyst",
+      "title": "Catalyst",
+      "color": "magenta",
+      "image": "/images/catalyst/catalyst-featured.png",
+      "type": "wordpress",
+      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
+    }
+  ]
+}

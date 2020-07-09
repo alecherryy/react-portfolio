@@ -1,4 +1,4 @@
-@import '../../scss/styles.scss';
+@import '../../scss/variables.scss';
 
 // @file
 // Project teaser
@@ -43,40 +43,4 @@
   @include bp-xlarge {
     font-size: rem(140px);
   }
-
-  // [data-color='purple-dark'] & {
-  //   color: $purple-dark;
-  // }
-
-  // [data-color='magenta-dark']  & {
-  //   color: $magenta-dark;
-  // }
-
-  // [data-color='magenta'] & {
-  //   color: $magenta;
-  // }
-  
-  // [data-color='magenta-2'] & {
-  //   color: $magenta-2;
-  // }
-
-  // [data-color='pink'] & {
-  //   color: $pink;
-  // }
-  
-  // [data-color='purple'] & {
-  //   color: $purple;
-  // }
-
-  // [data-color='purple-dark'] & {
-  //   color: $purple-dark;
-  // }
-  
-  // [data-color='orange'] & {
-  //   color: $orange;
-  // }
-
-  // [data-color='orange-light'] & {
-  //   color: $orange-light;
-  // }
 }

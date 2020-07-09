@@ -1,26 +1,30 @@
-import data from '../../data.json';
-import React, { Component } from 'react';
-import Content from '../Content';
+import projects from '../../content/projects.json';
+import React from 'react';
 import ProjectTeaser from '../ProjectTeaser';
+import Constrain from '../Constrain';
+import Footer from '../Footer';
 
-class About extends Component {
-  render() {
-    return (
-      <Content>
-        {
-          data.projects.teasers.map(function(object, i) { 
-            return <ProjectTeaser 
-                    color={object.color}
-                    image={object.image}
-                    title={object.title}
-                    description={object.description}
-                    type={object.type}
-                  />
+const Projects = () => {
+  // const { projects } = projects.content;
+
+  return (
+    <div className="projects">
+      <Constrain>
+        { projects.content.map(function(object, i) { 
+          return <ProjectTeaser 
+                  link={object.link}
+                  color={object.color}
+                  image={object.image}
+                  title={object.title}
+                  description={object.description}
+                  type={object.type}
+                />
           })
         }
-      </Content>
-    );
-  }
+      </Constrain>
+      <Footer />
+    </div>
+  );
 }
 
-export default About;
+export default Projects;

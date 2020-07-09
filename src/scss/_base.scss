@@ -10,12 +10,20 @@ html {
 }
 
 body {
-  color: $black;
+  color: $white;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
   transition: background-color 1s ease-in-out;
   word-wrap: break-word;
+
+  &.purple-dark {
+    background-color: $purple-dark;
+  }
+
+  &.magenta-dark {
+    background-color: $magenta-dark;
+  }
 
   &.no-scroll {
     overflow-y: hidden;
@@ -70,7 +78,7 @@ body {
 
 %hN {
   @extend %header-font-family !optional;
-  color: $black;
+  color: $white;
   font-weight: 700;
   hyphens: none;
   line-height: 1.1;

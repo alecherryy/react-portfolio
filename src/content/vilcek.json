@@ -1,0 +1,37 @@
+{
+  "color": "magenta-2",
+  "featured_image": "/images/vilcek/vilcek-featured.png",
+  "project_type": "wordpress",
+  "title": "Vilcek Foundation",
+  "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States. Based out of New York, Vilcek was established in 2000 by Jan and Marica Vilcek, immigrants from the former Czechoslovakia.",
+  "summary": "In 2019, Forum One was selected to build Vilcek's new website; designed by Pentagram, the new Vilcek website had to be intuitive, flexible, modern and accessible. The project came with an aggressive deadline to deliver a fully functional and QA'd website within 2 months; the Forum One team and I worked tirelessly to build and publish a pixel perfect website that was enjoyable and intuitive for both users and admins. The site was built through Forum One's native Wordpress theme (Gesso), Pattern Lab and Advanced Custom Fields; this system allowed for a fully customized content editor experience, as well as component-driven web development to facilitate re-usability.",
+  "link": "https://www.nopanic-agency.com/",
+  "tagline": "Accessible & visually engaging.",
+  "mobile_images": [
+    {
+      "name": "responsive",
+      "src": "/images/vilcek/vilcek-mobile-homepage.png",
+      "alt": "Vilcek Foundation - Mobile Homepage"
+    },
+    {
+      "name": "intuitive",
+      "src": "/images/vilcek/vilcek-mobile-prizes.png",
+      "alt": "Vilcek Foundation - Mobile Prizes Homepage"
+    }
+  ],
+  "desktop_images": [
+    {
+      "src": "/images/vilcek/vilcek-art.png",
+      "alt": "Vilcek Foundation - Art page"
+    },
+    {
+      "src": "/images/vilcek/vilcek-event.png",
+      "alt": "Vilcek Foundation - Events page"
+    }
+  ],
+  "next": {
+    "color": "magenta",
+    "title": "Catalyst",
+    "url": "/catalyst"
+  }
+}

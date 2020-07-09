@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
-import ConstrainSmall from '../Constrain/ConstrainSmall';
+import React from 'react';
+import './styles.scss';
 
-class LargeText extends Component {
-  render() {
-    return (
-      <ConstrainSmall>
-        <h3>{this.props.content}</h3>
-      </ConstrainSmall>
-    );
-  }
+const LargeText = ({ content }) => {
+  return (
+    <h2 className="large-text">{content}</h2>
+  );
 }
 
 export default LargeText;

@@ -1,0 +1,42 @@
+{
+  "color": "magenta",
+  "featured_image": "/images/catalyst/catalyst-featured.png",
+  "project_type": "wordpress",
+  "title": "Catalyst",
+  "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women. Founded in 1962, Catalyst drives change with pioneering research, practical tools, and proven solutions to accelerate and advance women into leadership—because progress for women is progress for everyone.",
+  "summary": "Catalyst was one of the first projects I worked on upon joining Forum One; as a woman in a male-dominated industry, I felt a personal connection to the client and their mission. The goal was to migrate their existing site onto a new, modern and eganging website whose primarly focus was their rich and wide array of content.",
+  "summary2": "Additionally, Forum One was tasked with incorporating Catalyst's additional microsite: Marc. Marc stands for Man Advocating Real Change; it's the hub for those who wish to be allies in this fight. The goal is to provide users with a single site where they can find all the information and content they need.",
+  "link": "https://www.nopanic-agency.com/",
+  "tagline": "Content. Content. Content.",
+  "mobile_images": [
+    {
+      "name": "responsive",
+      "src": "/images/vilcek/vilcek-mobile-homepage.png",
+      "alt": "Vilcek Foundation - Mobile Homepage"
+    },
+    {
+      "name": "intuitive",
+      "src": "/images/vilcek/vilcek-mobile-prizes.png",
+      "alt": "Vilcek Foundation - Mobile Prizes Homepage"
+    }
+  ],
+  "designs": [
+    {
+      "src": "/images/catalyst/catalyst-homepage.png",
+      "alt": "Catalyst Homepage Design"
+    },
+    {
+      "src": "/images/catalyst/catalyst-events.png",
+      "alt": "Catalyst Events Design"
+    },
+    {
+      "src": "/images/catalyst/catalyst-marc.png",
+      "alt": "Catalyst Marc Design"
+    }
+  ],
+  "next": {
+    "color": "purple",
+    "title": "no panic agency",
+    "url": "/nopanic"
+  }
+}

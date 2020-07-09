@@ -3,10 +3,6 @@ import React from 'react';
 import './styles.scss';
 
 const ProjectImage = ({ color, title, image, type }) => {
-  ({
-    duration: 1000,
-  });
-
   return (
     <figure 
       className="proj-image" 

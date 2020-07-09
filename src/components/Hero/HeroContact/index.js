@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../../Hero';
 
 const HeroContact = ({ intro, email, phone, phone_formatted, squares }) => {
+
   return (
     <Hero
       isHomepage={false}

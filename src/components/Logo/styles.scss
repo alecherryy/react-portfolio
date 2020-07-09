@@ -1,0 +1,38 @@
+@import '../../scss/variables.scss';
+
+// @file
+// Logo menu
+
+$logo-distance: rem(15px);
+
+.logo {
+  color: $white;
+  font-size: $font-size-md;
+  font-weight: 900;
+  display: inline-block;
+  left: $logo-distance;
+  position: fixed;
+  top: $logo-distance;
+  transform: rotate(-90deg) translate(-90%, 25%);
+  transform-origin: center left;
+  max-width: 100px;
+  z-index: 2;
+
+  @include bp-medium {
+    font-size: 1.5rem;
+    left: calc(#{$logo-distance} * 2);
+    max-width: 200px;
+    top: calc(#{$logo-distance} * 2);
+    transform: rotate(-90deg) translate(-90%, 0);
+  }
+  
+  @include bp-large {
+    left: calc(#{$logo-distance} * 3);
+    top: calc(#{$logo-distance} * 3);
+  }
+
+  @include bp-xxlarge {
+    left: calc(#{$logo-distance} * 4);
+    top: calc(#{$logo-distance} * 4);
+  }
+}

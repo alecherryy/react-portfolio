@@ -5,41 +5,41 @@
     "phone_formatted": "+1 (206) 393-2687",
     "intro": "My name is Alessia and I am a developer based out of New York. I care about pretty designs, intuitive interfaces and accessibility.",
     "squares": [
-      "/images/contact/square-1.svg",
-      "/images/contact/square-2.svg",
-      "/images/contact/square-3.svg",
-      "/images/contact/square-4.svg",
-      "/images/contact/square-5.svg",
-      "/images/contact/square-6.svg",
-      "/images/contact/square-7.svg",
-      "/images/contact/square-8.svg",
-      "/images/contact/square-9.svg"
+      "/images/homepage/square-1.svg",
+      "/images/homepage/square-2.svg",
+      "/images/homepage/square-3.svg",
+      "/images/homepage/square-4.svg",
+      "/images/homepage/square-5.svg",
+      "/images/homepage/square-6.svg",
+      "/images/homepage/square-7.svg",
+      "/images/homepage/square-8.svg",
+      "/images/homepage/square-9.svg"
     ]
   },
   "projects": [
     {
+      "link": "/nopanic",
+      "title": "no panic agency",
       "color": "purple",
-      "title": "no panic",
       "image": "/images/nopanic/nopanic-featured.png",
       "type": "wordpress",
-      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in corporate identity, marketing, copyrighting, print and branding.",
-      "path": "#"
+      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design."
     },
     {
-      "color": "magenta-2",
+      "link": "/vilcek-foundation",
       "title": "Vilcek Foundation",
+      "color": "magenta-2",
       "image": "/images/vilcek/vilcek-featured.png",
       "type": "wordpress",
-      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States.",
-      "path": "#"
+      "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
     },
     {
-      "color": "magenta",
+      "link": "/catalyst",
       "title": "Catalyst",
+      "color": "magenta",
       "image": "/images/catalyst/catalyst-featured.png",
       "type": "wordpress",
-      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women.",
-      "path": "#"
+      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
     }
   ]
 }

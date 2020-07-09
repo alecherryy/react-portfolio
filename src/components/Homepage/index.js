@@ -6,8 +6,7 @@ import ProjectTeaser from '../ProjectTeaser';
 import Footer from '../Footer';
 
 const Homepage = () => {
-  const { intro, squares, email } = homepage.info;
-
+  const { intro, squares } = homepage.info;
   return (
     <div className="homepage">
       <Constrain>
@@ -23,11 +22,12 @@ const Homepage = () => {
                   title={object.title}
                   description={object.description}
                   type={object.type}
+                  link={object.link}
                 />
           })
         }
       </Constrain>
-      <Footer email={email}/>
+      <Footer />
     </div>
   );
 }

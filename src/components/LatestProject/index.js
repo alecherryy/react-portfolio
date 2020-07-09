@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 class LatestProject extends Component {
@@ -8,7 +9,7 @@ class LatestProject extends Component {
         <span className="latest-project__eyebrow">Latest Project</span>
         <h3>{this.props.title}</h3>
         <p>{this.props.description}</p>
-        <a href="http://localhost:3000/" className="latest-project__link">Read More</a>
+        <Link className="latest-project__link" to={this.props.link} onClick={this.props.handleClick}>Read more</Link>
       </div>
     );
   }

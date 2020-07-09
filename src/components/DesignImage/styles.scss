@@ -1,0 +1,12 @@
+@import '../../scss/variables.scss';
+
+// @file
+// Design image
+
+.design-img {
+  margin: 0 0 5rem;
+
+  img {
+    box-shadow: 0 0 20px rgba(0,0,0, 0.35);
+  }
+}

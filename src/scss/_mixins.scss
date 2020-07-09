@@ -94,6 +94,7 @@
     right: rem(-75px);
     transform: rotate(15deg);
     transition: transform 1s ease-in-out;
+    transition-delay: 0.4s;
     width: rem(270px);
     z-index: -1;
   }

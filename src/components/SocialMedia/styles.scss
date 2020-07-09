@@ -1,4 +1,7 @@
-@import '../../scss/styles.scss';
+@import '../../scss/variables.scss';
+
+// @file
+// Social media styles
 
 .social-media {
   display: flex;
@@ -9,7 +12,8 @@
     margin: 0;
   }
   
-  .contact & {
+  .contact &,
+  .overlay & {
     bottom: 0.5rem;
     position: absolute;
 
@@ -22,7 +26,14 @@
     opacity: 0;
     padding: 0 55px 0 0;
     position: relative;
-    transform: translateY(5px);
+    transform: translateY(25%);
+    transition-duration: 0.4s;
+
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}n) {
+        transition-delay: #{$i * .1}s;
+      }
+    }
 
     &::before {
       background-color: $white;
@@ -33,6 +44,11 @@
       position: absolute;
       top: calc((100% - #{rem(15px)}) / 2);
       width: 0;
+
+      .overlay[data-visible='true'] & {
+        animation: main-menu-social-before .4s ease-in-out .4s 1 forwards; 
+        transform: none;
+      }
 
       .contact &,
       .aos-animate & {
@@ -78,6 +94,17 @@
           animation: main-menu-social-before-large .4s ease-in-out .4s 1 forwards; 
         }
       }
+      
+      .overlay[data-visible='true'] & {
+        &::before {
+          animation: main-menu-social-before-large .4s ease-in-out .4s 1 forwards;
+        }
+      }
+    }
+
+    .overlay[data-visible='true'] & {
+      opacity: 1;
+      transform: none;
     }
   }
 
