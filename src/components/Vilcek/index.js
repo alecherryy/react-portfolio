@@ -34,6 +34,7 @@ class Vilcek extends Component {
             />
             { data.desktop_images.map(function(object, i) { 
               return <HeroProject 
+                      key={object.alt}
                       alt={object.alt}
                       image={object.src}
                     />
@@ -47,6 +48,7 @@ class Vilcek extends Component {
                       title={object.alt}
                       image={object.src}
                       name={object.name}
+                      key={object.name}
                     />
               })
             }
