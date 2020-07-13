@@ -8,7 +8,7 @@
   color: $white;
   padding: 10rem 0;
 
-  @include bp-medium {
+  @include bp-large {
     align-items: center;
     display: flex;
     height: 100vh;
@@ -29,16 +29,21 @@
     }
 
     p {
-      max-width: 50%;
+      
+      @include bp-medium {
+        max-width: 50%;
+
+      }
     }
 
     a {
       display: inline-block;
       font-family: $base-font-family;
-      font-size: $font-size-xl;
+      font-size: $font-size-lg;
       margin: 0 0 1rem;
 
       @include bp-large {
+        font-size: $font-size-xl;
         position: relative;
         transition: all 0.4s ease-in;
     
@@ -134,19 +139,38 @@
 .hero__squares {
   // duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name
   animation: 2s 1s 1 cubic-bezier(.24,.56,.25,1) forwards slide-in;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  max-width: rem(480px);
+  max-width: rem(270px);
   transform-style: preserve-3d;
   transform: translateY(50%);
+
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  @include bp-small {
+    max-width: rem(480px);
+  }
 
   @include bp-xlarge {
     max-width: rem(510px);
   }
 
   img {
+    max-width: rem(90px);
+
+    @include bp-small {
+      max-width: rem(160px);
+    }
+    
+    @include bp-xlarge {
+      max-width: rem(170px);
+    }
+
     &:first-child,
     &:last-child {
       transform: translateZ(30px);  
