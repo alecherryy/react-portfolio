@@ -21,6 +21,7 @@ class App extends Component {
     AOS.init({
       duration: 800
     });
+
     return (
       <Router>
           <ScrollToTop />

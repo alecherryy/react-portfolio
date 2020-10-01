@@ -25,11 +25,6 @@
       grid-gap: rem(55px);
     }
   }
-
-  &[data-visible='true'] {
-    opacity: 1;
-    z-index: 5;
-  }
 }
 
 .overlay__left {
