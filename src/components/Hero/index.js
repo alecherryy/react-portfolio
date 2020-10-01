@@ -42,7 +42,7 @@ class Hero extends Component {
             <h1 className="hero__title">I am a<br />
             <Typewriter
               options={{
-                strings: ['software engineer', 'UI developer', 'web designer', 'beer lover'],
+                strings: ['UX engineer', 'frontend developer', 'web designer', 'beer lover'],
                 autoStart: true,
                 loop: true,
                 pauseFor: 5000,

@@ -3,41 +3,93 @@ import Logo from './../Logo';
 import HamburgerMenu from './../HamburgerMenu/index';
 import Overlay from '../Overlay/index';
 
+let open;
+let show;
+
 class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuIsOpen: false
+      menuIsOpen: false,
+      showMenu: false,
     };
-    this.handleClick = this.handleClick.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
+    // this.handleClick = this.handleClick.bind(this);
+    this.handleLogoClick = this.handleLogoClick.bind(this);
+    this.handleMenuToggle = this.handleMenuToggle.bind(this);
   }
 
-  handleClick() {
+  handleMenuToggle() {
+    const overlay = document.querySelector('.overlay');
+
     this.setState(state => ({
       menuIsOpen: !state.menuIsOpen
     }));
-  }
   
-  closeMenu () {
-    this.setState({menuIsOpen: false})
+    window.setTimeout(() => {
+      if (open) {
+        overlay.style.zIndex = 3;
+        overlay.style.opacity = 1;
+        
+        window.setTimeout(() => {
+          this.setState(state => ({
+            showMenu: true
+          }));
+        }, 600)
+      } else {
+        
+        this.setState(state => ({
+          showMenu: false
+        }));
+        window.setTimeout(() => {
+          overlay.style.opacity = 0;
+
+          window.setTimeout(() => {
+            overlay.style.zIndex = -1;
+          }, 600)
+        }, 600)
+      }
+    }, 100)
+  }
+
+  handleLogoClick(e) {
+    const home = document.querySelector('.homepage');
+    const overlay = document.querySelector('.overlay');
+
+    if (home) {
+      e.preventDefault();
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    this.setState(state => ({
+      showMenu: false
+    }));
+    
+    window.setTimeout(() => {
+      overlay.style.opacity = 0;
+
+      window.setTimeout(() => {
+        overlay.style.zIndex = -1;
+      }, 600)
+    }, 600)
   }
 
   render() {
-    const open = this.state.menuIsOpen ? true : false;
+    open = this.state.menuIsOpen ? true : false;
+    show = this.state.showMenu ? true : false;
 
     return (
       <header>
-        <Logo 
-          closeMenu={this.closeMenu}
+        <Logo
+          menuIsOpen={open}
+          handleClick={this.handleLogoClick}
         />
         <HamburgerMenu 
           isOpen={open}
-          handleClick={this.handleClick}
+          handleClick={this.handleMenuToggle}
         />
         <Overlay 
-          handleClick={this.handleClick}
-          visible={`${open}`} 
+          handleClick={this.handleMenuToggle}
+          visible={`${show}`} 
         />
       </header>
     );

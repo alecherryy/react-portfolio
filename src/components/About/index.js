@@ -9,11 +9,8 @@ import './styles.scss';
 
 class About extends Component {
   componentDidMount() {
-    document.body.dataset.color = 'purple';
-  } 
-
-  componentWillReceiveProps() { 
     AOS.refresh(); 
+    document.body.dataset.color = 'purple';
   } 
   
   render() {

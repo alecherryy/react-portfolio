@@ -16,7 +16,7 @@ $logo-distance: rem(15px);
   transform: rotate(-90deg) translate(-90%, 25%);
   transform-origin: center left;
   max-width: 100px;
-  z-index: 2;
+  z-index: 4;
 
   @include bp-medium {
     font-size: 1.5rem;

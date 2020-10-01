@@ -82,5 +82,6 @@
   @include arrow-link($white, 'arrow-white-right');
 
   font-family: $header-font-family;
+  font-weight: 700;
   text-transform: uppercase;
 }
