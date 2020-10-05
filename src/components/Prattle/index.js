@@ -1,16 +1,18 @@
-import data from '../../content/nopanic.json';
+import data from '../../content/prattle.json';
 import AOS from 'aos';
 import React, { Component } from 'react';
 import HeroProject from '../Hero/HeroProject';
+import ConstrainSmall from '../Constrain/ConstrainSmall';
+import DesignImage from '../DesignImage';
 import PlainText from '../PlainText';
 import PlainTextHalf from '../PlainText/PlainTextHalf';
 import Content from '../Content';
 import Constrain from '../Constrain';
-import MobileImage from '../MobileImage';
+import Grid from '../Grid';
 import NextProject from '../NextProject';
 import Footer from '../Footer';
 
-class NoPanic extends Component {
+class Prattle extends Component {
 
   componentWillReceiveProps() { 
     AOS.refresh(); 
@@ -36,25 +38,39 @@ class NoPanic extends Component {
               link={data.link}
             />
             <PlainTextHalf
-              description={data.summary}
+              title="The design"
+              description={data.design_summary}
             />
-            { data.desktop_images.map(function(object, i) { 
-              return <HeroProject 
+          </Constrain>
+          <ConstrainSmall>
+            { data.designs.map(function(object, i) { 
+              return <DesignImage 
                       key={object.alt}
                       alt={object.alt}
-                      image={object.src}
+                      src={object.src}
                     />
               })
             }
-            { data.mobile_images.map(function(object, i) { 
-              return <MobileImage 
-                      key={object.alt}
-                      title={object.alt}
-                      image={object.src}
-                      name={object.name}
+          </ConstrainSmall>
+          <Constrain>
+            <PlainTextHalf
+              title="The build"
+              description={data.build_summary}
+            />
+          </Constrain>
+          <Constrain>
+          <h3>Tools and technologies</h3>
+          <Grid>
+          { data.tools.map(function(object, i) { 
+              return <img
+                      key={object.i}
+                      data-aos="slide-up"
+                      src={object.image}
+                      alt={object.name}
                     />
               })
             }
+          </Grid>
           </Constrain>
           <NextProject
             color={data.next.color}
@@ -67,4 +83,4 @@ class NoPanic extends Component {
   }
 }
 
-export default NoPanic;
+export default Prattle;

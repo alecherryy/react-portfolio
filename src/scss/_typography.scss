@@ -1,13 +1,13 @@
 // @file
 // Typography
 
-$base-font-size: 20px;
+$base-font-size: 18px;
 $base-line-height: 1.5;
 $vertical-spacing: $base-font-size; // Used as the default spacing below most items such as paragraphs, lists, etc.
 
 // Fonts
 $system-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
-$base-font-family: 'Lora', serif;
+$base-font-family: 'Nunito Sans', serif;
 $header-font-family: 'Nunito Sans', sans-serif;
 
 // Typographic Scale
@@ -17,7 +17,7 @@ $font-size-xl: rem(48px);
 $font-size-lg: rem(36px);
 $font-size-md: rem(24px);
 $font-size-sm: rem($base-font-size);
-$font-size-xs: rem(16px);
+$font-size-xs: rem(14px);
 $font-size-xxs: rem(10px);
 
 // Heading Sizes

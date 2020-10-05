@@ -8,7 +8,7 @@ $logo-distance: rem(15px);
 .logo {
   color: $white;
   font-size: $font-size-md;
-  font-weight: 900;
+  font-weight: 700;
   display: inline-block;
   left: $logo-distance;
   position: fixed;
@@ -16,10 +16,10 @@ $logo-distance: rem(15px);
   transform: rotate(-90deg) translate(-90%, 25%);
   transform-origin: center left;
   max-width: 100px;
+  white-space: nowrap;
   z-index: 4;
 
   @include bp-medium {
-    font-size: 1.5rem;
     left: calc(#{$logo-distance} * 2);
     max-width: 200px;
     top: calc(#{$logo-distance} * 2);

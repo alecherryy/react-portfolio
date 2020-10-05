@@ -3,7 +3,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 100% * ($base-font-size / 20px);
+  font-size: $base-font-size;
   line-height: $base-line-height;
   min-height: 100%;
   text-size-adjust: 100%;
@@ -11,6 +11,7 @@ html {
 
 body {
   color: $white;
+  font-family: $base-font-family;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -162,14 +163,10 @@ h6,
 
 h1, h2, h3, h4, h5, h6 {
   // Remove top margin for adjacent subheadings.
-  font-family: $header-font-family;
+  
 }
 
 p {
-  font: {
-    family: $base-font-family;
-    size: $base-font-size;
-  }
   margin: 0 0 1rem;
 
   @media print {
@@ -188,10 +185,7 @@ hr {
 
 a {
   color: $white;
-  font: {
-    family: $header-font-family;
-    weight: 300;
-  }
+  
   text-decoration: none;
   
   &:hover,

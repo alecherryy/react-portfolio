@@ -36,17 +36,14 @@
 
 .latest-project__eyebrow {
   color: $white;
-  font: {
-    family: $header-font-family;
-    size: $font-size-sm;
-    weight: 700;
-  }
+  font-size: $font-size-sm;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 .latest-project__link {
   @include arrow-link($white, 'arrow-white-right');
 
-  font-family: $header-font-family;
+  font-size: $base-font-size;
   text-transform: uppercase;
 }

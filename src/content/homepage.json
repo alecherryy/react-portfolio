@@ -18,6 +18,14 @@
   },
   "projects": [
     {
+      "link": "/prattle",
+      "title": "prattle",
+      "color": "magenta-dark",
+      "image": "/images/prattle/prattle-featured.png",
+      "type": "java",
+      "description": "Part of a school project, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
+    },
+    {
       "link": "/nopanic",
       "title": "no panic agency",
       "color": "purple",
@@ -32,14 +40,6 @@
       "image": "/images/vilcek/vilcek-featured.png",
       "type": "wordpress",
       "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
-    },
-    {
-      "link": "/catalyst",
-      "title": "Catalyst",
-      "color": "magenta",
-      "image": "/images/catalyst/catalyst-featured.png",
-      "type": "wordpress",
-      "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
     }
   ]
 }

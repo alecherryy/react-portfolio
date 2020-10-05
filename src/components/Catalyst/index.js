@@ -9,6 +9,7 @@ import PlainText from '../PlainText';
 import PlainTextHalf from '../PlainText/PlainTextHalf';
 import Content from '../Content';
 import Constrain from '../Constrain';
+import Grid from '../Grid';
 import NextProject from '../NextProject';
 import Footer from '../Footer';
 
@@ -35,6 +36,7 @@ class Catalyst extends Component {
             <PlainText
               title={data.title}
               description={data.description}
+              link={data.link}
             />
             <PlainTextHalf
               description={data.summary}
@@ -53,6 +55,20 @@ class Catalyst extends Component {
               })
             }
           </ConstrainSmall>
+          <Constrain>
+          <h3>Tools and technologies</h3>
+          <Grid>
+          { data.tools.map(function(object, i) { 
+              return <img
+                      key={object.i}
+                      data-aos="slide-up"
+                      src={object.image}
+                      alt={object.name}
+                    />
+              })
+            }
+          </Grid>
+          </Constrain>
           <NextProject
             color={data.next.color}
             url={data.next.url}

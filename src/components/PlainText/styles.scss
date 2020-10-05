@@ -10,4 +10,12 @@
     max-width: 50%;
     padding: 8rem 0;
   }
+
+  a {
+    @include arrow-link($white, 'arrow-white-right');
+
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
 }

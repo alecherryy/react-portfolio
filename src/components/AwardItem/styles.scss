@@ -1,0 +1,18 @@
+@import '../../scss/variables.scss';
+
+// @file
+// Footer
+
+.award-item {
+  font-size: $font-size-sm;
+  height: 100%;
+  width: 100%;
+
+  h6 {
+    font-weight: 900;
+  }
+
+  p {
+    margin: 0;
+  }
+}

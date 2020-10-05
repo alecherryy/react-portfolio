@@ -15,6 +15,7 @@ import ScrollToTop from './components/ScrollToTop';
 import NoPanic from './components/NoPanic';
 import Vilcek from './components/Vilcek';
 import Catalyst from './components/Catalyst';
+import Prattle from './components/Prattle';
 
 class App extends Component {
   render() {
@@ -47,6 +48,9 @@ class App extends Component {
             </Route>
             <Route path="/catalyst">
               <Catalyst />
+            </Route>
+            <Route path="/prattle">
+              <Prattle />
             </Route>
           </Switch>
       </Router>

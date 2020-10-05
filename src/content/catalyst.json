@@ -4,22 +4,9 @@
   "project_type": "wordpress",
   "title": "Catalyst",
   "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women. Founded in 1962, Catalyst drives change with pioneering research, practical tools, and proven solutions to accelerate and advance women into leadership—because progress for women is progress for everyone.",
-  "summary": "Catalyst was one of the first projects I worked on upon joining Forum One; as a woman in a male-dominated industry, I felt a personal connection to the client and their mission. The goal was to migrate their existing site onto a new, modern and eganging website whose primarly focus was their rich and wide array of content.",
-  "summary2": "Additionally, Forum One was tasked with incorporating Catalyst's additional microsite: Marc. Marc stands for Man Advocating Real Change; it's the hub for those who wish to be allies in this fight. The goal is to provide users with a single site where they can find all the information and content they need.",
-  "link": "https://www.nopanic-agency.com/",
-  "tagline": "Content. Content. Content.",
-  "mobile_images": [
-    {
-      "name": "responsive",
-      "src": "/images/vilcek/vilcek-mobile-homepage.png",
-      "alt": "Vilcek Foundation - Mobile Homepage"
-    },
-    {
-      "name": "intuitive",
-      "src": "/images/vilcek/vilcek-mobile-prizes.png",
-      "alt": "Vilcek Foundation - Mobile Prizes Homepage"
-    }
-  ],
+  "summary": "In 2019, Forum One was hired to redesign Catalyst’s official website; part of the project included integrating their affiliate organization, MARC, into the new site to provide users with a central hub in which to find all the information and resources they wanted. Additionally, our team was tasked with planning and executing the migration of their existing content, which included thousands of records. Catalyst wanted to launch a modern, accessible, intuitive website where content was the focus and driving force of each user journey. The challenge was to design and build a homepage that could feature all key resources for a variety of users, covering a wide range of topics.",
+  "link": "https://www.catalyst.org/",
+  "tagline": "Content is the driving force of the user journey.",
   "designs": [
     {
       "src": "/images/catalyst/catalyst-homepage.png",
@@ -32,6 +19,32 @@
     {
       "src": "/images/catalyst/catalyst-marc.png",
       "alt": "Catalyst Marc Design"
+    }
+  ],
+  "tools": [
+    {
+      "image": "/images/logos/wordpress.svg",
+      "name": "Wordpress"
+    },
+    {
+      "image": "/images/logos/acf.svg",
+      "name": "Awesome Custom Fields"
+    },
+    {
+      "image": "/images/logos/pattern-lab.svg",
+      "name": "Pattern Lab"
+    },
+    {
+      "image": "/images/logos/html.svg",
+      "name": "HTML5"
+    },
+    {
+      "image": "/images/logos/sass.svg",
+      "name": "Sass"
+    },
+    {
+      "image": "/images/logos/jquery.svg",
+      "name": "jQuery"
     }
   ],
   "next": {
