@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/arrow-white-right.d780db3d.svg"
   },
   {
-    "revision": "f44abca74e5b2ef0258f216e49054026",
-    "url": "/react-portfolio/static/media/github.f44abca7.svg"
-  },
-  {
     "revision": "572fe473f12f5c3357e9b4b3d9383bd2",
     "url": "/react-portfolio/static/media/github-black.572fe473.svg"
   },
   {
     "revision": "8c89962d4c07a097db8c4073077ff37b",
     "url": "/react-portfolio/static/media/github-hover.8c89962d.svg"
+  },
+  {
+    "revision": "f44abca74e5b2ef0258f216e49054026",
+    "url": "/react-portfolio/static/media/github.f44abca7.svg"
   },
   {
     "revision": "e51e83a7b9a01934be6a0aeaeadb4dba",
