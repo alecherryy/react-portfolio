@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SonarQube icon white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SonarQube-icon-white" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="116" height="116"></rect>
+            <g id="Group" transform="translate(13.000000, 14.000000)" fill="#696969">
+                <path d="M79.5789474,87.7953488 L74.5488722,87.7953488 C74.5488722,47.0015504 41.1654135,13.825323 0.135338346,13.825323 L0.135338346,8.75452196 C43.9398496,8.75452196 79.5789474,44.2046512 79.5789474,87.7953488" id="Path"></path>
+                <path d="M83.0526316,60.5994832 C77.0075188,34.9953488 56.4586466,13.6434109 30.6766917,6.18501292 L31.8270677,2.1374677 C59.0300752,10.005168 80.7518797,32.5622739 87.112782,59.6217054 L83.0526316,60.5994832 Z" id="Path"></path>
+                <path d="M86.9097744,36.5870801 C80.6842105,22.9209302 70.1052632,11.0056848 57.0902256,3.04702842 L58.8270677,0.159173127 C72.406015,8.48165375 83.4586466,20.9198966 89.9548872,35.177261 L86.9097744,36.5870801 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
