@@ -2,14 +2,14 @@
   "email": "hello@alecherryy.io",
   "intro": "Got a project you’d like to collaborate on? Share ideas? Or simply want to say hi?",
   "squares": [
-    "/images/contact/square-1.svg",
-    "/images/contact/square-2.svg",
-    "/images/contact/square-3.svg",
-    "/images/contact/square-4.svg",
-    "/images/contact/square-5.svg",
-    "/images/contact/square-6.svg",
-    "/images/contact/square-7.svg",
-    "/images/contact/square-8.svg",
-    "/images/contact/square-9.svg"
+    "./images/contact/square-1.svg",
+    "./images/contact/square-2.svg",
+    "./images/contact/square-3.svg",
+    "./images/contact/square-4.svg",
+    "./images/contact/square-5.svg",
+    "./images/contact/square-6.svg",
+    "./images/contact/square-7.svg",
+    "./images/contact/square-8.svg",
+    "./images/contact/square-9.svg"
   ]
 }

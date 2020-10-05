@@ -4,7 +4,7 @@
       "link": "/prattle",
       "title": "prattle",
       "color": "magenta-dark",
-      "image": "/images/prattle/prattle-featured.png",
+      "image": "./images/prattle/prattle-featured.png",
       "type": "java",
       "description": "As part of my Foundations of Software Engineering course, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
     },
@@ -12,7 +12,7 @@
       "link": "/nopanic",
       "title": "no panic agency",
       "color": "purple",
-      "image": "/images/nopanic/nopanic-featured.png",
+      "image": "./images/nopanic/nopanic-featured.png",
       "type": "wordpress",
       "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design."
     },
@@ -20,7 +20,7 @@
       "link": "/vilcek-foundation",
       "title": "Vilcek Foundation",
       "color": "magenta-2",
-      "image": "/images/vilcek/vilcek-featured.png",
+      "image": "./images/vilcek/vilcek-featured.png",
       "type": "wordpress",
       "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
     },
@@ -28,7 +28,7 @@
       "link": "/catalyst",
       "title": "Catalyst",
       "color": "magenta",
-      "image": "/images/catalyst/catalyst-featured.png",
+      "image": "./images/catalyst/catalyst-featured.png",
       "type": "wordpress",
       "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women."
     }

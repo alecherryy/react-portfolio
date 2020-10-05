@@ -5,15 +5,15 @@
     "phone_formatted": "+1 (206) 393-2687",
     "intro": "My name is Alessia and I am a developer based out of New York. I care about pretty designs, intuitive interfaces and accessibility.",
     "squares": [
-      "/images/homepage/square-1.svg",
-      "/images/homepage/square-2.svg",
-      "/images/homepage/square-3.svg",
-      "/images/homepage/square-4.svg",
-      "/images/homepage/square-5.svg",
-      "/images/homepage/square-6.svg",
-      "/images/homepage/square-7.svg",
-      "/images/homepage/square-8.svg",
-      "/images/homepage/square-9.svg"
+      "./images/homepage/square-1.svg",
+      "./images/homepage/square-2.svg",
+      "./images/homepage/square-3.svg",
+      "./images/homepage/square-4.svg",
+      "./images/homepage/square-5.svg",
+      "./images/homepage/square-6.svg",
+      "./images/homepage/square-7.svg",
+      "./images/homepage/square-8.svg",
+      "./images/homepage/square-9.svg"
     ]
   },
   "projects": [
@@ -21,7 +21,7 @@
       "link": "/prattle",
       "title": "prattle",
       "color": "magenta-dark",
-      "image": "/images/prattle/prattle-featured.png",
+      "image": "./images/prattle/prattle-featured.png",
       "type": "java",
       "description": "Part of a school project, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
     },
@@ -29,7 +29,7 @@
       "link": "/nopanic",
       "title": "no panic agency",
       "color": "purple",
-      "image": "/images/nopanic/nopanic-featured.png",
+      "image": "./images/nopanic/nopanic-featured.png",
       "type": "wordpress",
       "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design."
     },
@@ -37,7 +37,7 @@
       "link": "/vilcek-foundation",
       "title": "Vilcek Foundation",
       "color": "magenta-2",
-      "image": "/images/vilcek/vilcek-featured.png",
+      "image": "./images/vilcek/vilcek-featured.png",
       "type": "wordpress",
       "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
     }

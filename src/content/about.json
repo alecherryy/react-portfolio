@@ -5,51 +5,51 @@
     "content": "I currently work full-time for Forum One, a digital agency headquartered in Crystal City, VA. I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am also pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction. I care about accessibility, intuitive interfaces and a good UX. I believe in writing DRY code, good commenting and collaboration among developers. I have experience in object-oriented programming, writing modular code and tackling each task, no matter how small, with commitment and a detail-oriented attitude.",
     "tools": [
       {
-        "image": "/images/logos/html.svg",
+        "image": "./images/logos/html.svg",
         "name": "HTML5"
       },
       {
-        "image": "/images/logos/sass.svg",
+        "image": "./images/logos/sass.svg",
         "name": "Sass"
       },
       {
-        "image": "/images/logos/javascript.svg",
+        "image": "./images/logos/javascript.svg",
         "name": "JavaScript"
       },
       {
-        "image": "/images/logos/jquery.svg",
+        "image": "./images/logos/jquery.svg",
         "name": "jQuery"
       },
       {
-        "image": "/images/logos/react.svg",
+        "image": "./images/logos/react.svg",
         "name": "React"
       },
       {
-        "image": "/images/logos/pattern-lab.svg",
+        "image": "./images/logos/pattern-lab.svg",
         "name": "Pattern Lab"
       },
       {
-        "image": "/images/logos/java.svg",
+        "image": "./images/logos/java.svg",
         "name": "Java"
       },
       {
-        "image": "/images/logos/python.svg",
+        "image": "./images/logos/python.svg",
         "name": "Python"
       },
       {
-        "image": "/images/logos/wordpress.svg",
+        "image": "./images/logos/wordpress.svg",
         "name": "Wordpress"
       },
       {
-        "image": "/images/logos/drupal.svg",
+        "image": "./images/logos/drupal.svg",
         "name": "drupal"
       },
       {
-        "image": "/images/logos/leaflet.svg",
+        "image": "./images/logos/leaflet.svg",
         "name": "LeafLet"
       },
       {
-        "image": "/images/logos/github.svg",
+        "image": "./images/logos/github.svg",
         "name": "GitHub"
       }
     ],
@@ -87,23 +87,23 @@
     ],
     "clients": [
       {
-        "image": "/images/clients/fujifilm.svg",
+        "image": "./images/clients/fujifilm.svg",
         "name": "Fujifilm"
       },
       {
-        "image": "/images/clients/vilcek.svg",
+        "image": "./images/clients/vilcek.svg",
         "name": "Vilcek Foundation"
       },
       {
-        "image": "/images/clients/bill-and-melinda-foundation.svg",
+        "image": "./images/clients/bill-and-melinda-foundation.svg",
         "name": "Bill and Melinda Gates Foundation"
       },
       {
-        "image": "/images/clients/colorado-wic.svg",
+        "image": "./images/clients/colorado-wic.svg",
         "name": "Colorado WIC"
       },
       {
-        "image": "/images/clients/smithsonian.svg",
+        "image": "./images/clients/smithsonian.svg",
         "name": "Smithsonian"
       }
     ]

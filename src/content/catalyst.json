@@ -1,6 +1,6 @@
 {
   "color": "magenta",
-  "featured_image": "/images/catalyst/catalyst-featured.png",
+  "featured_image": "./images/catalyst/catalyst-featured.png",
   "project_type": "wordpress",
   "title": "Catalyst",
   "description": "Catalyst is a global nonprofit working with some of the world’s most powerful CEOs and leading companies to help build workplaces that work for women. Founded in 1962, Catalyst drives change with pioneering research, practical tools, and proven solutions to accelerate and advance women into leadership—because progress for women is progress for everyone.",
@@ -9,41 +9,41 @@
   "tagline": "Content is the driving force of the user journey.",
   "designs": [
     {
-      "src": "/images/catalyst/catalyst-homepage.png",
+      "src": "./images/catalyst/catalyst-homepage.png",
       "alt": "Catalyst Homepage Design"
     },
     {
-      "src": "/images/catalyst/catalyst-events.png",
+      "src": "./images/catalyst/catalyst-events.png",
       "alt": "Catalyst Events Design"
     },
     {
-      "src": "/images/catalyst/catalyst-marc.png",
+      "src": "./images/catalyst/catalyst-marc.png",
       "alt": "Catalyst Marc Design"
     }
   ],
   "tools": [
     {
-      "image": "/images/logos/wordpress.svg",
+      "image": "./images/logos/wordpress.svg",
       "name": "Wordpress"
     },
     {
-      "image": "/images/logos/acf.svg",
+      "image": "./images/logos/acf.svg",
       "name": "Awesome Custom Fields"
     },
     {
-      "image": "/images/logos/pattern-lab.svg",
+      "image": "./images/logos/pattern-lab.svg",
       "name": "Pattern Lab"
     },
     {
-      "image": "/images/logos/html.svg",
+      "image": "./images/logos/html.svg",
       "name": "HTML5"
     },
     {
-      "image": "/images/logos/sass.svg",
+      "image": "./images/logos/sass.svg",
       "name": "Sass"
     },
     {
-      "image": "/images/logos/jquery.svg",
+      "image": "./images/logos/jquery.svg",
       "name": "jQuery"
     }
   ],

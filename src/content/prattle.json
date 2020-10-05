@@ -1,6 +1,6 @@
 {
   "color": "magenta-dark",
-  "featured_image": "/images/prattle/prattle-featured.png",
+  "featured_image": "./images/prattle/prattle-featured.png",
   "project_type": "java",
   "title": "prattle",
   "description": "As part of my Foundations of Software Engineering course, three other students and I spent half of the semester designing and building a web-based chat application to gain practical experience with concepts and tools explored during our lectures. The project was an opportunity to explore the Agile methodology, which included planning, outlining sprint goals, development and the opportunity for each team member to be Scrum Mater. Built over the course of 4 weeks, prattle includes a handful of modern technologies and tools to create a fully functional messaging application.",
@@ -9,53 +9,53 @@
   "link": "https://github.com/alecherryy/prattle-back-end",
   "designs": [
     {
-      "src": "/images/prattle/prattle-signin.png",
+      "src": "./images/prattle/prattle-signin.png",
       "alt": "prattle sign in"
     },
     {
-      "src": "/images/prattle/prattle-chat.png",
+      "src": "./images/prattle/prattle-chat.png",
       "alt": "prattle chat"
     },
     {
-      "src": "/images/prattle/prattle-thread.png",
+      "src": "./images/prattle/prattle-thread.png",
       "alt": "prattle thread chat"
     },
     {
-      "src": "/images/prattle/prattle-update.png",
+      "src": "./images/prattle/prattle-update.png",
       "alt": "prattle update"
     }
   ],
   "tools": [
     {
-      "image": "/images/logos/java.svg",
+      "image": "./images/logos/java.svg",
       "name": "Java"
     },
     {
-      "image": "/images/logos/websockets.svg",
+      "image": "./images/logos/websockets.svg",
       "name": "Websockets"
     },
     {
-      "image": "/images/logos/javascript.svg",
+      "image": "./images/logos/javascript.svg",
       "name": "JavaScript"
     },
     {
-      "image": "/images/logos/html.svg",
+      "image": "./images/logos/html.svg",
       "name": "HTML5"
     },
     {
-      "image": "/images/logos/sass.svg",
+      "image": "./images/logos/sass.svg",
       "name": "Sass"
     },
     {
-      "image": "/images/logos/mongodb.svg",
+      "image": "./images/logos/mongodb.svg",
       "name": "MongoDB"
     },
     {
-      "image": "/images/logos/sonarqube.svg",
+      "image": "./images/logos/sonarqube.svg",
       "name": "SonarQube"
     },
     {
-      "image": "/images/logos/github.svg",
+      "image": "./images/logos/github.svg",
       "name": "GitHub"
     }
   ],

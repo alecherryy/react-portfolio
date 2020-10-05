@@ -1,6 +1,6 @@
 {
   "color": "magenta-2",
-  "featured_image": "/images/vilcek/vilcek-featured.png",
+  "featured_image": "./images/vilcek/vilcek-featured.png",
   "project_type": "wordpress",
   "title": "Vilcek Foundation",
   "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States. Based out of New York, Vilcek was established in 2000 by Jan and Marica Vilcek, immigrants from the former Czechoslovakia.",
@@ -10,22 +10,22 @@
   "mobile_images": [
     {
       "name": "responsive",
-      "src": "/images/vilcek/vilcek-mobile-homepage.png",
+      "src": "./images/vilcek/vilcek-mobile-homepage.png",
       "alt": "Vilcek Foundation - Mobile Homepage"
     },
     {
       "name": "intuitive",
-      "src": "/images/vilcek/vilcek-mobile-prizes.png",
+      "src": "./images/vilcek/vilcek-mobile-prizes.png",
       "alt": "Vilcek Foundation - Mobile Prizes Homepage"
     }
   ],
   "desktop_images": [
     {
-      "src": "/images/vilcek/vilcek-art.png",
+      "src": "./images/vilcek/vilcek-art.png",
       "alt": "Vilcek Foundation - Art page"
     },
     {
-      "src": "/images/vilcek/vilcek-event.png",
+      "src": "./images/vilcek/vilcek-event.png",
       "alt": "Vilcek Foundation - Events page"
     }
   ],
