@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "672db982ae54e22237cc",
+    "revision": "f7c6542139c8a430f58c",
     "url": "/react-portfolio/static/css/main.235a408c.chunk.css"
   },
   {
-    "revision": "672db982ae54e22237cc",
-    "url": "/react-portfolio/static/js/main.672db982.chunk.js"
+    "revision": "f7c6542139c8a430f58c",
+    "url": "/react-portfolio/static/js/main.f7c65421.chunk.js"
   },
   {
     "revision": "9ef7d3ef096c4c453b30",
@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/arrow-white-right.d780db3d.svg"
   },
   {
-    "revision": "f44abca74e5b2ef0258f216e49054026",
-    "url": "/react-portfolio/static/media/github.f44abca7.svg"
-  },
-  {
     "revision": "572fe473f12f5c3357e9b4b3d9383bd2",
     "url": "/react-portfolio/static/media/github-black.572fe473.svg"
   },
   {
     "revision": "8c89962d4c07a097db8c4073077ff37b",
     "url": "/react-portfolio/static/media/github-hover.8c89962d.svg"
+  },
+  {
+    "revision": "f44abca74e5b2ef0258f216e49054026",
+    "url": "/react-portfolio/static/media/github.f44abca7.svg"
   },
   {
     "revision": "e51e83a7b9a01934be6a0aeaeadb4dba",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/arrow-black-right.82fff967.svg"
   },
   {
-    "revision": "6ec223f4682bb0e754747773a16de0bf",
+    "revision": "17771cd889fa249eebc1664bbfc892b3",
     "url": "/react-portfolio/index.html"
   }
 ];
