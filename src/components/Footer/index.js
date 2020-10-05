@@ -12,12 +12,12 @@ const Footer = () => {
         <div className="footer__inner" data-aos="slide-up">
           <div className="footer__left">
             <span className="footer__eyebrow" >
-              Got an idea?
+              Want to collaborate?
             </span>
             <a
               
               data-aos-delay="200"
-              href={`mailto:${data.email}`}
+              href={`mailto:${data.global.email}`}
             >
               Shoot me an email</a>
           </div>

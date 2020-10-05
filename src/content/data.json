@@ -1,11 +1,10 @@
 {
   "global": {
     "email": "hello@alecherryy.io",
-    "phone_formatted": "+1 (206) 393-2687",
     "latest_project" : {
-      "title": "no panic agency",
-      "description": "no panic is a digital agency based out of Turin, Italy. They specialize in branding, copyrighting, social media, web and app design.",
-      "link": "/nopanic"
+      "link": "/prattle",
+      "title": "prattle",
+      "description": "Part of a school project, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
     },
     "social": {
       "github": "https://github.com/alecherryy/",

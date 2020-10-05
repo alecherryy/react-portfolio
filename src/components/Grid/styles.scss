@@ -5,7 +5,7 @@
 
 .grid {
   display: flex;
-  padding: 0 0 4rem;
+  padding: 2rem 0 8rem;
 
   > * {
     align-self: center;
@@ -15,7 +15,7 @@
   }
 
   @include bp-medium {
-    padding: 0 0 10rem;
+    padding: 4rem 0 10rem;
 
     > * {
       flex-basis: calc(100% / 4);
@@ -24,7 +24,6 @@
 
   @supports (display: grid) {
     display: grid;
-    grid-gap: rem(33px);
     grid-gap: rem(66px);
     grid-template-columns: repeat(2, 1fr);
     

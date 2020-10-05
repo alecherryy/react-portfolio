@@ -6,7 +6,7 @@ import './styles.scss';
 class Hero extends Component {
   componentDidMount() {
     this.handleScroll();
-    document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : 'magenta';
+    document.body.dataset.color = this.props.isHomepage ? 'purple-dark' : 'magenta-2';
     window.addEventListener('scroll', this.handleScroll);
   }
 
@@ -42,7 +42,7 @@ class Hero extends Component {
             <h1 className="hero__title">I am a<br />
             <Typewriter
               options={{
-                strings: ['UX engineer', 'frontend developer', 'web designer', 'beer lover'],
+                strings: ['frontend developer', 'software engineer', 'web designer', 'beer lover'],
                 autoStart: true,
                 loop: true,
                 pauseFor: 5000,
@@ -54,7 +54,7 @@ class Hero extends Component {
           </div>
         :
           <div className="hero__left">
-            <p>{this.props.intro}</p>
+            <p className="hero__intro">{this.props.intro}</p>
             <h1 className="hero__title">Get in touch.</h1>
             <a href={`mailto:${this.props.email}`}>{this.props.email}</a>
           </div>

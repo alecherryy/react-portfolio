@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
 import data from '../../content/vilcek.json';
+import AOS from 'aos';
+import React, { Component } from 'react';
 import HeroProject from '../Hero/HeroProject';
 import PlainText from '../PlainText';
 import PlainTextHalf from '../PlainText/PlainTextHalf';
@@ -11,6 +12,10 @@ import Footer from '../Footer';
 import LargeText from '../LargeText';
 
 class Vilcek extends Component {
+  componentWillReceiveProps() { 
+    AOS.refresh(); 
+  }
+
   componentDidMount() {
     document.body.dataset.color = data.color;
   }

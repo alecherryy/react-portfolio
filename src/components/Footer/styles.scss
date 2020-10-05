@@ -20,9 +20,9 @@
 .footer__eyebrow {
   color: $black;
   display: block;
-  font-family: $header-font-family;
+  
   font-size: $font-size-xs;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -31,16 +31,11 @@
   a {
     @include arrow-link($black, 'arrow-black-right');
 
-    font-family: $base-font-family;
-    font-size: $font-size-md;
     transition: color 0.3s ease-in-out;
-  
+    text-transform: uppercase;
+
     &:hover {
       color: $magenta;
-    }
-  
-    @include bp-medium {
-      font-size: $font-size-lg;
     }
   }
 }

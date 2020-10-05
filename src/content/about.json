@@ -1,31 +1,9 @@
 {
   "info": {
     "title": "Hello, there.",
-    "intro": "My name is Alessia, I am a front end and software engineer based out of New York, NY. Born and raised in Italy, I came to the US in 2011 on an athletic scholarship. Since then, I have lived in Miami for 5 years and Seattle for another 3. I travelled up and down the country, visited as many city and national parks as possible; my favorite place is Utah. It's a national park galore.",
-    "content": "I currently work full-time for Forum One, a digital agency headquartered in Crystal City, VA. I care about accessibility, intuitive interfaces and responsive design. I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am also pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction.",
+    "intro": "My name is Alessia, I am a front end and software engineer based out of New York, NY. Born and raised in Italy, I came to the US in 2011. Since then, I have lived in Miami for 5 years and Seattle for another 3. I travelled up and down the country, visited as many cities and national parks as possible; my favorite place is Utah. It's a national park galore.",
+    "content": "I currently work full-time for Forum One, a digital agency headquartered in Crystal City, VA. I have been working for Forum One for over 2 years; over this time, I had the pleasure to work with local, state and federal government as well as many non-profit organizations. I am also pursuing a Master in Computer Science at Northeastern University with a focus on Human/Computer Interaction. I care about accessibility, intuitive interfaces and a good UX. I believe in writing DRY code, good commenting and collaboration among developers. I have experience in object-oriented programming, writing modular code and tackling each task, no matter how small, with commitment and a detail-oriented attitude.",
     "tools": [
-      {
-        "image": "/images/clients/fujifilm.svg",
-        "name": "Fujifilm"
-      },
-      {
-        "image": "/images/clients/vilcek.svg",
-        "name": "Vilcek Foundation"
-      },
-      {
-        "image": "/images/clients/bill-and-melinda-foundation.svg",
-        "name": "Bill and Melinda Gates Foundation"
-      },
-      {
-        "image": "/images/clients/colorado-wic.svg",
-        "name": "Colorado WIC"
-      },
-      {
-        "image": "/images/clients/cset.svg",
-        "name": "Center for Security and Emerging Technology"
-      }
-    ],
-    "clients": [
       {
         "image": "/images/logos/html.svg",
         "name": "HTML5"
@@ -73,6 +51,60 @@
       {
         "image": "/images/logos/github.svg",
         "name": "GitHub"
+      }
+    ],
+    "awards": [
+      {
+        "project": "Atla",
+        "award": "Oustanding Websites",
+        "organization": "2020 WebAwards"
+      },
+      {
+        "project": "Vilcek Foundation",
+        "award": "Outstanding Websites",
+        "organization": "2020 WebAwards"
+      },
+      {
+        "project": "Seattle Center",
+        "award": "Government Standard of Excellence",
+        "organization": "2020 WebAwards"
+      },
+      {
+        "project": "Catalyst",
+        "award": "Nonprofit Standard of Excellence",
+        "organization": "2020 WebAwards"
+      },
+      {
+        "project": "Web Application (Desktop)",
+        "award": "Seattle Golden Student ADDY",
+        "organization": "2018 American Advertising Federation"
+      },
+      {
+        "project": "Web Application (Desktop)",
+        "award": "National Silver Student ADDY",
+        "organization": "2018 American Advertising Federation"
+      }
+    ],
+    "clients": [
+      {
+        "image": "/images/clients/fujifilm.svg",
+        "name": "Fujifilm"
+      },
+      {
+        "image": "/images/clients/vilcek.svg",
+        "name": "Vilcek Foundation"
+      },
+      {
+        "image": "/images/clients/bill-and-melinda-foundation.svg",
+        "name": "Bill and Melinda Gates Foundation"
+      },
+      {
+        "image": "/images/clients/colorado-wic.svg",
+        "name": "Colorado WIC"
+      },
+      {
+        "image": "/images/clients/smithsonian.svg",
+        "name": "Smithsonian"
       }
     ]
   }

@@ -1,6 +1,14 @@
 {
   "content": [
     {
+      "link": "/prattle",
+      "title": "prattle",
+      "color": "magenta-dark",
+      "image": "/images/prattle/prattle-featured.png",
+      "type": "java",
+      "description": "As part of my Foundations of Software Engineering course, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
+    },
+    {
       "link": "/nopanic",
       "title": "no panic agency",
       "color": "purple",
@@ -15,14 +23,6 @@
       "image": "/images/vilcek/vilcek-featured.png",
       "type": "wordpress",
       "description": "Vilcek Foundation recognizes and celebrates immigrants' success and contributions in the United States."
-    },
-    {
-      "link": "/cset",
-      "title": "Center for Security and Emerging Technologies",
-      "color": "magenta-dark",
-      "image": "/images/cset/cset-featured.png",
-      "type": "wordpress",
-      "description": "A policy research organization within Georgetown University’s Walsh School of Foreign Service."
     },
     {
       "link": "/catalyst",

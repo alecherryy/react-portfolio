@@ -1,8 +1,6 @@
 {
-  "email": "sample@email.com",
-  "phone": "+12063932687",
-  "phone_formatted": "+1 (206) 393-2687",
-  "intro": "Got a project you’d like to collaborate on? Have ideas? Or simply want to say hi?",
+  "email": "hello@alecherryy.io",
+  "intro": "Got a project you’d like to collaborate on? Share ideas? Or simply want to say hi?",
   "squares": [
     "/images/contact/square-1.svg",
     "/images/contact/square-2.svg",
