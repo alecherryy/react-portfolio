@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.scss';
 
-const Menu = ({handleClick}) => {
+const Menu = ({ handleClick }) => {
   return (
     <ul className="menu">
       <li className="menu__item">

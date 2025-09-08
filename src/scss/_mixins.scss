@@ -5,6 +5,7 @@
   &[type='button'] {
     appearance: none;
   }
+
   background-color: transparent;
   border: 0;
   border-radius: 0;
@@ -18,7 +19,7 @@
   }
 }
 
-@mixin arrow-link($color, $image-name, $image-location: '../../images/') {
+@mixin arrow-link($color, $image-name, $image-location: '/images/') {
   color: $color;
   display: inline-block;
   position: relative;
@@ -32,12 +33,14 @@
 
   &::after {
     content: '';
+
     background: {
       image: url($image-location+$image-name+'.svg');
       position: cover;
       repeat: no-repeat;
       size: 100%;
     }
+
     height: rem(11px);
     left: 105%;
     position: absolute;
@@ -47,10 +50,10 @@
   }
 }
 
-@mixin arrow-link-reverse($color, $image-name, $image-location: '../../images/') {
+@mixin arrow-link-reverse($color, $image-name, $image-location: '/images/') {
   color: $color;
   display: inline-block;
-  
+
   position: relative;
   white-space: nowrap;
 
@@ -62,12 +65,14 @@
 
   &::after {
     content: '';
+
     background: {
       image: url($image-location+$image-name+'.svg');
       position: cover;
       repeat: no-repeat;
       size: 100%;
     }
+
     height: rem(11px);
     position: absolute;
     right: 105%;
@@ -87,6 +92,7 @@
       repeat: no-repeat;
       size: rem(270px) rem(135px);
     }
+
     bottom: rem(117px);
     height: rem(135px);
     left: auto;
@@ -113,49 +119,49 @@
 
   &[data-color='magenta-dark'] {
     &::before {
-      background-image: url('../../images/semi-circle-magenta-2.svg');
+      background-image: url('/images/semi-circle-magenta-2.svg');
     }
   }
 
   &[data-color='magenta'] {
     &::before {
-      background-image: url('../../images/semi-circle-magenta.svg');
+      background-image: url('/images/semi-circle-magenta.svg');
     }
   }
-  
+
   &[data-color='magenta-2'] {
     &::before {
-      background-image: url('../../images/semi-circle-magenta-2.svg');
+      background-image: url('/images/semi-circle-magenta-2.svg');
     }
   }
 
   &[data-color='pink'] {
     &::before {
-      background-image: url('../../images/semi-circle-purple.svg');
+      background-image: url('/images/semi-circle-purple.svg');
     }
   }
-  
+
   &[data-color='purple'] {
     &::before {
-      background-image: url('../../images/semi-circle-purple-dark.svg');
+      background-image: url('/images/semi-circle-purple-dark.svg');
     }
   }
 
   &[data-color='purple-dark'] {
     &::before {
-      background-image: url('../../images/semi-circle-magenta-2.svg');
+      background-image: url('/images/semi-circle-magenta-2.svg');
     }
   }
-  
+
   &[data-color='orange'] {
     &::before {
-      background-image: url('../../images/semi-circle-orange-light.svg');
+      background-image: url('/images/semi-circle-orange-light.svg');
     }
   }
 
   &[data-color='orange-light'] {
     &::before {
-      background-image: url('../../images/semi-circle-orange.svg');
+      background-image: url('/images/semi-circle-orange.svg');
     }
   }
 }
@@ -167,6 +173,6 @@
     left: rem(-75px);
     right: auto;
     transform: rotate(-15deg);
-    
+
   }
 }

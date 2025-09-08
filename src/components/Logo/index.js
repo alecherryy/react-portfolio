@@ -31,7 +31,7 @@ class Logo extends Component {
 
     if (home) {
       e.preventDefault();
-      window.scrollTo({top: 0, behavior: 'smooth'});
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
 

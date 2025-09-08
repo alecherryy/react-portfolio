@@ -9,7 +9,7 @@ class ProjectTeaser extends Component {
     this.handleScroll();
     window.addEventListener('scroll', this.handleScroll);
   }
-  
+
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   }
@@ -30,10 +30,10 @@ class ProjectTeaser extends Component {
   render() {
 
     return (
-      <div 
-        className="proj-teaser" 
-        data-color={`${this.props.color}`} 
-        ref={ (ref) => { this.myRef = ref } }
+      <div
+        className="proj-teaser"
+        data-color={`${this.props.color}`}
+        ref={(ref) => { this.myRef = ref }}
         onScroll={this.handleScroll}>
         <div className="proj-teaser__inner" data-aos="slide-up">
           <ProjectImage

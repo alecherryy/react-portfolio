@@ -1,16 +1,15 @@
 {
   "global": {
     "email": "hello@alecherryy.io",
-    "latest_project" : {
+    "latest_project": {
       "link": "/prattle",
       "title": "prattle",
       "description": "Part of a school project, prattle is a web-based chat application designed and built to gain practical experience with concepts and tools explored in class."
     },
     "social": {
       "github": "https://github.com/alecherryy/",
-      "codepen": "https://codepen.io/alecherryy/",
       "linkedin": "https://www.linkedin.com/in/alessiapizzoccheri/",
-      "twitter": "https://www.linkedin.com/in/alessiapizzoccheri/"
+      "codepen": "https://codepen.io/alecherryy/"
     }
   }
 }
