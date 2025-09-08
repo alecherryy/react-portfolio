@@ -1,14 +1,30 @@
 {
-  "main.css": "/static/css/main.5e377460.chunk.css",
-  "main.js": "/static/js/main.a8509fa9.chunk.js",
-  "main.js.map": "/static/js/main.a8509fa9.chunk.js.map",
-  "static/js/1.9ef7d3ef.chunk.js": "/static/js/1.9ef7d3ef.chunk.js",
-  "static/js/1.9ef7d3ef.chunk.js.map": "/static/js/1.9ef7d3ef.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/styles.scss": "/static/media/arrow-black-right.82fff967.svg",
-  "static/css/main.5e377460.chunk.css.map": "/static/css/main.5e377460.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.9cc40fdc8de70c1ffdb81ef675497d6b.js": "/precache-manifest.9cc40fdc8de70c1ffdb81ef675497d6b.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.34904f1b.css",
+    "main.js": "/static/js/main.d7657e24.js",
+    "static/media/codepen-black.svg": "/static/media/codepen-black.6901ae6af3e6c9943acc.svg",
+    "static/media/codepen-hover.svg": "/static/media/codepen-hover.9e3c4ff8ae9d95247ef6.svg",
+    "static/media/codepen.svg": "/static/media/codepen.15ed453de66aa27fced6.svg",
+    "static/media/github-black.svg": "/static/media/github-black.39cdea9468e4aa163171.svg",
+    "static/media/github-hover.svg": "/static/media/github-hover.ccedf42780e1a337bf6b.svg",
+    "static/media/github.svg": "/static/media/github.efa90f85e6bbca6aa0a9.svg",
+    "static/media/linkedin-black.svg": "/static/media/linkedin-black.b053f9f61f8a957508e2.svg",
+    "static/media/linkedin-hover.svg": "/static/media/linkedin-hover.6709078b1c73d95dde56.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.6df96136377faf207e11.svg",
+    "static/media/semi-circle-orange-light.svg": "/static/media/semi-circle-orange-light.2934526a26ecf915f3f2.svg",
+    "static/media/semi-circle-magenta-2.svg": "/static/media/semi-circle-magenta-2.0de4fbc9e98f33f585a5.svg",
+    "static/media/semi-circle-purple-dark.svg": "/static/media/semi-circle-purple-dark.40ae7d581f9d12b66210.svg",
+    "static/media/semi-circle-purple.svg": "/static/media/semi-circle-purple.669902cecedf52d5a637.svg",
+    "static/media/semi-circle-magenta.svg": "/static/media/semi-circle-magenta.0f8fe5f38d1ab7a0f9d8.svg",
+    "index.html": "/index.html",
+    "static/media/semi-circle-orange.svg": "/static/media/semi-circle-orange.a3cb127bebc3badc057e.svg",
+    "static/media/arrow-black-right.svg": "/static/media/arrow-black-right.e27744e0f32ccb9dd8a3.svg",
+    "static/media/arrow-white-right.svg": "/static/media/arrow-white-right.12da2f56c4935defac27.svg",
+    "main.34904f1b.css.map": "/static/css/main.34904f1b.css.map",
+    "main.d7657e24.js.map": "/static/js/main.d7657e24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34904f1b.css",
+    "static/js/main.d7657e24.js"
+  ]
 }
